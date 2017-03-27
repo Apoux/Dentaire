@@ -1,0 +1,25 @@
+.center {
+    text-align: center;
+}
+
+.blue {
+    color : #204d74;
+}
+
+.red {
+    color : #ac2925;
+}
+
+.green {
+    color : #449d44;
+}
+
+.bold {
+    font-weight: bold;
+}
+#login {
+    border-radius: 2%;
+    border-style: solid;
+    border-color: darkgray;
+    background-color: lightgray;
+}
