@@ -85,16 +85,15 @@
                     <?php if(\App\Model\PersonneRepository::loggedAdmin()): ?>
                         <li><a href="<?= PATH ?>/admin/index">Admin</a></li>
                     <?php endif ?>
+                    <li><a href="<?= PATH ?>/annoncesod/index">Annonces</a></li>
                     <?php if (\App\Model\PersonneRepository::logged()):?>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">En savoir + <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fonctionalités Annonces <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?= PATH ?>/annoncesod/index">Annonces</a></li>
-                                <li><a href="<?= PATH ?>/annoncesod/add">Ajouter Votre Annonces</a></li>
+                                <li><a href="<?= PATH ?>/annoncesod/add_annonce">Ajouter Votre Annonces</a></li>
                             </ul>
                         </li>
                     <?php endif ?>
-                    <li><a href="<?= PATH ?>/annoncesod/index">Annonces</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">En savoir + <span class="caret"></span></a>
                         <ul class="dropdown-menu">

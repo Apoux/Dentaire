@@ -1,196 +1,33 @@
 SELECT * FROM `annonceod` INNER JOIN annoncegeneral ON annonceod.`id_annonce` = annoncegeneral.id_annonce
 
+ANNONCEGENERAL
+	id_annonce
+	datecreation_annonce
+	description_annonce
+	dateexpiration_annonce
+	ipcreateur_annonce
+	id_personne
 
 
-
-/**
-     * @return mixed
-     */
-    public function getIdAnnonceod()
-    {
-        return $this->id_annonceod;
-    }
-
-    /**
-     * @param mixed $id_annonceod
-     */
-    public function setIdAnnonceod($id_annonceod)
-    {
-        $this->id_annonceod = $id_annonceod;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getMarqueAnnonce()
-    {
-        return $this->marque_annonce;
-    }
-
-    /**
-     * @param mixed $marque_annonce
-     */
-    public function setMarqueAnnonce($marque_annonce)
-    {
-        $this->marque_annonce = $marque_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getEtatmaterielAnnonce()
-    {
-        return $this->etatmateriel_annonce;
-    }
-
-    /**
-     * @param mixed $etatmateriel_annonce
-     */
-    public function setEtatmaterielAnnonce($etatmateriel_annonce)
-    {
-        $this->etatmateriel_annonce = $etatmateriel_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDateachatAnnonce()
-    {
-        return $this->dateachat_annonce;
-    }
-
-    /**
-     * @param mixed $dateachat_annonce
-     */
-    public function setDateachatAnnonce($dateachat_annonce)
-    {
-        $this->dateachat_annonce = $dateachat_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getGarantieAnnonce()
-    {
-        return $this->garantie_annonce;
-    }
-
-    /**
-     * @param mixed $garantie_annonce
-     */
-    public function setGarantieAnnonce($garantie_annonce)
-    {
-        $this->garantie_annonce = $garantie_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdacheteurAnnonce()
-    {
-        return $this->idacheteur_annonce;
-    }
-
-    /**
-     * @param mixed $idacheteur_annonce
-     */
-    public function setIdacheteurAnnonce($idacheteur_annonce)
-    {
-        $this->idacheteur_annonce = $idacheteur_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPrixAnnonce()
-    {
-        return $this->prix_annonce;
-    }
-
-    /**
-     * @param mixed $prix_annonce
-     */
-    public function setPrixAnnonce($prix_annonce)
-    {
-        $this->prix_annonce = $prix_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getValideAnnonce()
-    {
-        return $this->valide_annonce;
-    }
-
-    /**
-     * @param mixed $valide_annonce
-     */
-    public function setValideAnnonce($valide_annonce)
-    {
-        $this->valide_annonce = $valide_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdAnnonce()
-    {
-        return $this->id_annonce;
-    }
-
-    /**
-     * @param mixed $id_annonce
-     */
-    public function setIdAnnonce($id_annonce)
-    {
-        $this->id_annonce = $id_annonce;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdCategorie()
-    {
-        return $this->id_categorie;
-    }
-
-    /**
-     * @param mixed $id_categorie
-     */
-    public function setIdCategorie($id_categorie)
-    {
-        $this->id_categorie = $id_categorie;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdType()
-    {
-        return $this->id_type;
-    }
-
-    /**
-     * @param mixed $id_type
-     */
-    public function setIdType($id_type)
-    {
-        $this->id_type = $id_type;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdTypeexpedition()
-    {
-        return $this->id_typeexpedition;
-    }
-
-    /**
-     * @param mixed $id_typeexpedition
-     */
-    public function setIdTypeexpedition($id_typeexpedition)
-    {
-        $this->id_typeexpedition = $id_typeexpedition;
-    }
+ANNONCEOD
+    id_annonceod
+    marque_annonce
+	etatmateriel_annonce
+	dateachat_annonce
+	garantie_annonce
+	idacheteur_annonce
+	prix_annonce
+	vendu_annonce
+	valide_annonce
+	proposition_annonce
+	id_annonce
+	id_categorie
+	id_type
+	id_typeexpedition
+POST DEUX
+    type
+    marque
+    etat
+    date
+    garantie
+    prixidcat

@@ -11,8 +11,11 @@ namespace App\Controller;
 
 use App\Model\AnnonceodRepository;
 use App\Model\AnnoncesodRepository;
+use App\Model\CategorieRepository;
 use App\Model\PersonneRepository;
+use App\Model\typeAnnonceodRepository;
 use Core\Controller\Controller;
+use Core\HTML\TemplateForm;
 
 
 class AnnoncesodController extends Controller
@@ -53,17 +56,47 @@ class AnnoncesodController extends Controller
             $this->render('Error/404');
         }
     }
-    public function add(){
+    public function add_annonce(){
         $this->template = 'default';
         $personnerepo = new PersonneRepository();
-
+        $annonceodrepo = new AnnoncesodRepository();
+        $categorierepo = new CategorieRepository();
+        $idpersonne = $personnerepo->getUserId();
+        $form = new TemplateForm($_POST);
         $error = ' ';
-        if($personnerepo->islogged()){
+        $suite = 0 ;
+        $typeannoncerepo = new TypeAnnonceodRepository();
+        $listeType = $typeannoncerepo->getAllTypeAnnonceod();
+        $listeCategorie = $categorierepo->getAllCategorie();
+        if(!$personnerepo->islogged()){
             $this->denied();
         }
-        if(!empty($_POST)) {
+         if(!empty($_POST['description'])) {
+            if($_POST['description']!="description"){
+                $description = htmlspecialchars($_POST['description']);
+                $choix = htmlspecialchars($_POST['choix']);
+                $datecreation = date('Y-m-d h:i:s');
+                $dateexpiration = date('Y-m-d',strtotime('+ '.$choix .'month',strtotime($datecreation)));
+                $ip = $_SERVER["REMOTE_ADDR"];
+                $suite =1;
+                $error="etape suivante";
+                if($suite ==1){
+                    if(!empty($_POST['type'])){
+                        $lastid =$annonceodrepo->addAnnonceGeneral($datecreation,$description,$dateexpiration,$ip,$idpersonne);
+                        $error="Veuillez remplir tout les dwdasaddadwdw";
+                        $suite =2;
+                    }else{
+                        $error="Veuillez remplir tout les dwdwdw";
+                    }
+                }
+
+            }else{
+                $error="Veuillez remplir une description";
+            }
         }
+
         $form = new TemplateForm($_POST);
-        $this->render('Annoncesod/add', compact('listeType','listeCP','form', 'error'));
+        $this->render('Annoncesod/add_annonce', compact('form', 'error','lastid','suite','listeType','listeCategorie'));
     }
 }
+

@@ -99,7 +99,7 @@ class PersonneController extends Controller
         $this->render('User/profil', compact('user','form','formDeux','error','listeDept','listeType'));
     }
     public function modifpass(){
-        $this->template = 'default2';
+        $this->template = 'default';
         $personnerepo = new PersonneRepository();
         $user = $personnerepo->infoUser($personnerepo->getUserId());
         $error=' ';

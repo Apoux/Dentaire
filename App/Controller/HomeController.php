@@ -14,7 +14,7 @@ class HomeController extends Controller
         $this->render('Home/index');
     }
     public function cgu() {
-        $this->template = 'default2';
+        $this->template = 'default';
         $this->render('Home/cgu');
     }
 
