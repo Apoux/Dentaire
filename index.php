@@ -6,7 +6,7 @@ require_once 'App/Autoload.php';
 require_once 'Core/Autoload.php';
 
 define('ROOT', dirname(str_replace('\\', '/', __DIR__)));
-define('PATH', 'http://localhost/occasion-dentaire');
+define('PATH', 'http://localhost/Dentaire');
 App\Autoloader::register();
 Core\Autoloader::register();
 
