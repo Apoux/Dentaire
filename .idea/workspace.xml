@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f67c6ba-d9b8-4e06-bc67-baf464b71237" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/adresseLivraison.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/annonceAD.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/annonceCD.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/annonceDR.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/annonceGen.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/annonceOD.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/cabinet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/categorie.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/commande.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/compteurVisite.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/cv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/departement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/diplome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/etat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/facture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/jourDeTravail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/pays.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/personne.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/photos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/produits.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/qualificationAnnonceDR.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/questionReponses.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/region.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/typeAnnonceDR.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/typeAnnonceOD.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/typeMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/typePersonne.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/urgente.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/utilisateur.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/entity/vote.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/db_connect.php" afterPath="$PROJECT_DIR$/app/model/db_connect.php" />
-    </list>
-    <ignored path="Dentaire.iws" />
+    <list default="true" id="6538ff6c-0c02-4f65-b351-7066b8f6d6e5" name="Default" comment="" />
+    <ignored path="phpapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,72 +12,130 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-    </PATH>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Dentaire" />
+    <favorites_list name="phpapp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/db_connect.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AnnoncesodRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Model/AnnoncesodRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="14.269231">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               <folding>
-                <element signature="e#6#87#0#PHP" expanded="true" />
+                <element signature="e#6#91#0#PHP" expanded="true" />
+                <marker date="1490621496245" expanded="true" signature="273:403" placeholder="SELECT * FRO... annonceod" />
+                <marker date="1490621496245" expanded="true" signature="273:409" placeholder="SELECT * FRO... annonceod" />
+                <marker date="1490621496245" expanded="true" signature="273:421" placeholder="SELECT * FRO... annonceod" />
+                <marker date="1490621496245" expanded="true" signature="273:422" placeholder="SELECT * FRO... annonceod" />
+                <marker date="1490621496245" expanded="true" signature="273:433" placeholder="SELECT * FRO... annonceod" />
+                <marker date="1490621496245" expanded="true" signature="831:961" placeholder="SELECT * FRO... annonceod" />
+                <marker date="1490621496245" expanded="true" signature="1146:1284" placeholder="SELECT * FRO... annonceod" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/198db9fb-01e1-44df-a48b-a78c0ccd574b/console_1.sql">
+      <file leaf-file-name="profil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/User/profil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="84" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assistante-dentaire.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/form/Assistante-dentaire.php">
+      <file leaf-file-name="navBarLateral.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/css/navBarLateral.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cabinet-dentaire.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/form/cabinet-dentaire.php">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/Annoncesod/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/User/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Views/Templates/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.6919105">
+              <caret line="92" column="41" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SPDO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Model/SPDO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.3461537">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonneController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controller/PersonneController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+              <folding>
+                <element signature="e#306#891#0#PHP" expanded="false" />
+                <element signature="e#896#2540#0#PHP" expanded="false" />
+                <element signature="e#2545#2690#0#PHP" expanded="false" />
+                <element signature="e#4071#4960#0#PHP" expanded="false" />
+                <element signature="e#4965#5824#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,36 +143,76 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/view/form/Dentiste-remplaçant.php" />
-        <option value="$PROJECT_DIR$/app/view/form/cabinet-dentaire.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/TypeAnnonceOD.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/adresseLivraison.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/annonceGen.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/annonceAD.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/annonceOD.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/annonceDR.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/cabinet.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/categorie.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/commande.php" />
-        <option value="$PROJECT_DIR$/app/model/db_connect.php" />
-        <option value="$PROJECT_DIR$/app/model/entity/competence.php" />
+        <option value="$PROJECT_DIR$/public/css/navBarTwitch.css" />
+        <option value="$PROJECT_DIR$/public/js/navBarLateral.js" />
+        <option value="$PROJECT_DIR$/public/css/navBarLateral.css" />
+        <option value="$PROJECT_DIR$/app/views/user/livraison.php" />
+        <option value="$PROJECT_DIR$/app/views/home/index.php" />
+        <option value="$PROJECT_DIR$/todo" />
+        <option value="$PROJECT_DIR$/app/views/home/cgu.php" />
+        <option value="$PROJECT_DIR$/app/views/user/register.php" />
+        <option value="$PROJECT_DIR$/app/views/user/register.php" />
+        <option value="$PROJECT_DIR$/app/controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/views/user/modifProfil.php" />
+        <option value="$PROJECT_DIR$/app/views/user/login.php" />
+        <option value="$PROJECT_DIR$/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/core/HTML/TemplateForm.php" />
+        <option value="$PROJECT_DIR$/app/model/UserRepository.php" />
+        <option value="$PROJECT_DIR$/app/model/UserRepository.php" />
+        <option value="$PROJECT_DIR$/app/views/user/profil.php" />
+        <option value="$PROJECT_DIR$/app/views/templates/default.php" />
+        <option value="$PROJECT_DIR$/app/views/templates/default2.php" />
+        <option value="$PROJECT_DIR$/app/views/user/modifpass.php" />
+        <option value="$PROJECT_DIR$/app/controller/UserController.php" />
+        <option value="$PROJECT_DIR$/Core/Controller/Controller.php" />
+        <option value="$PROJECT_DIR$/App/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/App/Model/TypePersonneRepository.php" />
+        <option value="$PROJECT_DIR$/App/Model/PersonneRepository.php" />
+        <option value="$PROJECT_DIR$/App/Views/Annonces/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/App/Entity/Annonces.php" />
+        <option value="$PROJECT_DIR$/App/Model/AnnonceRepository.php" />
+        <option value="$PROJECT_DIR$/App/Model/AnnonceOdRepository.php" />
+        <option value="$PROJECT_DIR$/App/Controller/AnnonceController.php" />
+        <option value="$PROJECT_DIR$/App/Controller/AnnonceodController.php" />
+        <option value="$PROJECT_DIR$/App/Views/AnnoncesOd/index.php" />
+        <option value="$PROJECT_DIR$/App/Model/AnnonceodRepository.php" />
+        <option value="$PROJECT_DIR$/App/Entity/Personne.php" />
+        <option value="$PROJECT_DIR$/Meno.txt" />
+        <option value="$PROJECT_DIR$/App/Entity/Annonceod.php" />
+        <option value="$PROJECT_DIR$/App/Entity/AnnonceGeneral.php" />
+        <option value="$PROJECT_DIR$/App/Views/Home/nothing.php" />
+        <option value="$PROJECT_DIR$/App/Model/AnnoncesRepository.php" />
+        <option value="$PROJECT_DIR$/App/Views/Annoncesod/view_annonce.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/App/Model/AnnoncesodRepository.php" />
+        <option value="$PROJECT_DIR$/App/Views/Annoncesod/add.php" />
+        <option value="$PROJECT_DIR$/App/Views/Templates/default2.php" />
+        <option value="$PROJECT_DIR$/App/Controller/PersonneController.php" />
+        <option value="$PROJECT_DIR$/App/Controller/AnnoncesodController.php" />
+        <option value="$PROJECT_DIR$/App/Views/Annoncesod/index.php" />
+        <option value="$PROJECT_DIR$/App/Model/SPDO.php" />
+        <option value="$PROJECT_DIR$/App/Views/Templates/default.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1702" />
-    <option name="y" value="-253" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -174,125 +237,299 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
+              <option name="myItemId" value="occasion-dentaire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
+              <option name="myItemId" value="occasion-dentaire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
+              <option name="myItemId" value="occasion-dentaire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
+              <option name="myItemId" value="occasion-dentaire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
+              <option name="myItemId" value="occasion-dentaire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
+              <option name="myItemId" value="occasion-dentaire" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Dentaire" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Error" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Annoncesod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="occasion-dentaire" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NEW-Dentiste-Remplacant.com" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\Dentaire\app" />
-      <recent name="C:\wamp\www\Dentaire\app\model\entity" />
+      <recent name="C:\wamp\www\occasion-dentaire\App\Views\Error" />
+      <recent name="C:\wamp64\www\phpapp\app\views\user" />
+      <recent name="C:\wamp64\www\phpapp\app\views\error" />
+      <recent name="C:\wamp64\www\phpapp\public\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\Dentaire\app\view\form" />
-      <recent name="C:\wamp\www\Dentaire\app\model\entity" />
+      <recent name="C:\wamp64\www\phpapp\public\js" />
+      <recent name="C:\wamp64\www\phpapp\public\css" />
+      <recent name="C:\wamp64\www\phpapp\core" />
+      <recent name="C:\wamp64\www\phpapp\app\controller" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -307,7 +544,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -318,96 +554,62 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f67c6ba-d9b8-4e06-bc67-baf464b71237" name="Default" comment="" />
-      <created>1483619392738</created>
+      <changelist id="6538ff6c-0c02-4f65-b351-7066b8f6d6e5" name="Default" comment="" />
+      <created>1488984894028</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1483619392738</updated>
-      <workItem from="1483619394444" duration="81000" />
-      <workItem from="1483619570919" duration="3032000" />
-      <workItem from="1484900627560" duration="1143000" />
-      <workItem from="1485794851918" duration="196000" />
-      <workItem from="1485863785845" duration="669000" />
-      <workItem from="1485877523528" duration="4000" />
-      <workItem from="1485957521848" duration="10075000" />
-      <workItem from="1486022997554" duration="7180000" />
-      <workItem from="1486110787723" duration="598000" />
-      <workItem from="1486326022576" duration="47000" />
-      <workItem from="1488361683874" duration="2052000" />
-      <workItem from="1488470821944" duration="21000" />
+      <updated>1488984894028</updated>
+      <workItem from="1488984895230" duration="20706000" />
+      <workItem from="1489067374055" duration="15428000" />
+      <workItem from="1489141659730" duration="2705000" />
+      <workItem from="1489331274245" duration="12404000" />
+      <workItem from="1489391615995" duration="24419000" />
+      <workItem from="1489481121541" duration="15326000" />
+      <workItem from="1489568081056" duration="5637000" />
+      <workItem from="1489656115882" duration="21171000" />
+      <workItem from="1489739796533" duration="13837000" />
+      <workItem from="1490221816898" duration="661000" />
+      <workItem from="1490222627860" duration="1055000" />
+      <workItem from="1490223777292" duration="948000" />
+      <workItem from="1490545439689" duration="1430000" />
+      <workItem from="1490546885007" duration="2653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25098000" />
+    <option name="totallyTimeSpent" value="138380000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1702" y="-253" width="1296" height="1040" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38106796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18689321" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13700788" sideWeight="0.5783309" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.4216691" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -421,498 +623,502 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/home/_head.php">
+    <entry file="file://$PROJECT_DIR$/App/Views/Templates/default2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/home/_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/home/_nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/entity/produit.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceGENERAL.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/facture.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/photos.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/region.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/departement.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/message.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/vote.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/pays.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceACD.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/typeAnnonceDR.php" />
-    <entry file="file://$PROJECT_DIR$/app/controller/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/form/Consentement-éclairé.php">
+    <entry file="file://$PROJECT_DIR$/App/Controller/PersonneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/form/Dentiste-remplaçant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/form/Occasion-dentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/form/mon-site-dentaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/entity/typeAnnonceOD.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/urgente.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/diplome.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/typePersonne.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/etat.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/produits.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/questionReponses.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/typeMessage.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/qualificationAnnonceDR.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/jourDeTravail.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceAD.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceOD.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceCD.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceGen.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/annonceDR.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/cabinet.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/categorie.php" />
-    <entry file="file://$PROJECT_DIR$/../HabitAlex/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/entity/adresseLivraison.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/commande.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/compteurVisite.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/cvDR.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/cvAD.php" />
-    <entry file="file://$PROJECT_DIR$/app/model/entity/competence.php" />
-    <entry file="dbDummy://dbtable:/77b1b8f1/198db9fb-01e1-44df-a48b-a78c0ccd574b/5000_chirdentdr.annoncegeneral">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/db_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
           <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="e#306#891#0#PHP" expanded="false" />
+            <element signature="e#896#2540#0#PHP" expanded="false" />
+            <element signature="e#2545#2690#0#PHP" expanded="false" />
+            <element signature="e#4071#4960#0#PHP" expanded="false" />
+            <element signature="e#4965#5824#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diagram.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/198db9fb-01e1-44df-a48b-a78c0ccd574b/console.sql">
+    <entry file="file://$PROJECT_DIR$/App/Controller/PersonneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="88" selection-start-line="141" selection-start-column="88" selection-end-line="141" selection-end-column="88" />
+          <folding>
+            <element signature="e#306#891#0#PHP" expanded="false" />
+            <element signature="e#896#2540#0#PHP" expanded="false" />
+            <element signature="e#2545#2690#0#PHP" expanded="false" />
+            <element signature="e#4071#4960#0#PHP" expanded="false" />
+            <element signature="e#4965#5824#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/198db9fb-01e1-44df-a48b-a78c0ccd574b">
+    <entry file="uml://PHP/\App\Autoloader">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>198db9fb-01e1-44df-a48b-a78c0ccd574b</OriginalElement>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Autoloader</OriginalElement>
           <nodes>
-            <node x="1606.0000000000002" y="1241.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.disponibilites</node>
-            <node x="2958.0833333333335" y="911.5">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.travailledans</node>
-            <node x="1816.0000000000002" y="1252.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.diplomeparcv</node>
-            <node x="3837.4744769119775" y="391.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cabinet</node>
-            <node x="5040.5" y="867.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photocabinet</node>
-            <node x="2885.8333333333335" y="190.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.typepersonne</node>
-            <node x="0.0" y="1488.3505859375">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.picture</node>
-            <node x="1822.999098124099" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.diplome</node>
-            <node x="2479.5833333333335" y="358.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne</node>
-            <node x="555.2500000000002" y="1263.5">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.zonedeparution</node>
-            <node x="211.0" y="856.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.commande</node>
-            <node x="2012.999098124099" y="900.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.jourdetravail</node>
-            <node x="4539.5" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.categorie</node>
-            <node x="1202.0000000000002" y="1241.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photocv</node>
-            <node x="208.75" y="523.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.etat</node>
-            <node x="3611.0" y="1164.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncedr</node>
-            <node x="43.75" y="1252.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.lignedecommande</node>
-            <node x="946.5000000000002" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.poste</node>
-            <node x="3991.5" y="812.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.paiementannonceod</node>
-            <node x="3169.0" y="1241.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.urgente</node>
-            <node x="518.0000000000002" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.pays</node>
-            <node x="2516.499098124099" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.typemessage</node>
-            <node x="1435.0000000000002" y="1263.5">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cvad</node>
-            <node x="1329.8513257575764" y="900.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv</node>
-            <node x="4207.999098124099" y="1186.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annonceod</node>
-            <node x="2571.0" y="1186.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.questionreponse</node>
-            <node x="2355.8333333333335" y="168.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.departement</node>
-            <node x="303.0" y="1241.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.facture</node>
-            <node x="4369.5" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.typeannonceod</node>
-            <node x="687.0000000000002" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.competencescv</node>
-            <node x="3399.0" y="1252.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncead</node>
-            <node x="3158.0" y="878.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral</node>
-            <node x="2904.0" y="1241.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.compteurvisite</node>
-            <node x="972.0000000000002" y="1230.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cvdr</node>
-            <node x="732.0000000000002" y="1252.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.competenceducv</node>
-            <node x="0.0" y="900.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.produits</node>
-            <node x="2319.0" y="1241.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.estremunerer</node>
-            <node x="4750.0" y="1263.5">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.estlaphotode</node>
-            <node x="3778.5" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.qualificationannoncedr</node>
-            <node x="2384.8333333333335" y="0.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.region</node>
-            <node x="2614.8333333333335" y="146.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.adresselivraison</node>
-            <node x="2152.0" y="1263.5">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.emploidutemps</node>
-            <node x="319.0" y="1488.3505859375">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.votes</node>
-            <node x="2220.499098124099" y="911.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.remuneration</node>
-            <node x="4737.5" y="878.0">198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photosannonceod</node>
+            <node x="" y="">\App\Autoloader</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="18.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\App\Model\SPDO">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Model\SPDO</OriginalElement>
+          <nodes>
+            <node x="" y="">\App\Model\SPDO</node>
+            <node x="" y="">\App\Model\UserRepository</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="59.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/\App\Controller\HomeController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>\App\Controller\HomeController</OriginalElement>
+          <nodes>
+            <node x="260.5" y="0.0">\Core\Controller\Controller</node>
+            <node x="159.0" y="86.0">\App\Controller\HomeController</node>
+            <node x="483.0" y="86.0">\App\Controller\AdminController</node>
+            <node x="327.0" y="86.0">\App\Controller\UserController</node>
+            <node x="0.0" y="86.0">\App\Controller\ErrorController</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photocabinet" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cabinet">
-              <point x="0.0" y="-81.0" />
-              <point x="5159.5" y="792.0" />
-              <point x="4141.974476911977" y="792.0" />
-              <point x="101.5" y="169.0" />
+            <edge source="\App\Controller\AdminController" target="\Core\Controller\Controller">
+              <point x="0.0" y="-18.0" />
+              <point x="558.5" y="56.0" />
+              <point x="354.125" y="56.0" />
+              <point x="40.125" y="18.0" />
             </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.departement">
-              <point x="-178.875" y="-202.0" />
-              <point x="2539.2083333333335" y="333.0" />
-              <point x="2475.3333333333335" y="333.0" />
-              <point x="0.0" y="59.0" />
+            <edge source="\App\Controller\HomeController" target="\Core\Controller\Controller">
+              <point x="0.0" y="-18.0" />
+              <point x="233.0" y="66.0" />
+              <point x="300.625" y="66.0" />
+              <point x="-13.375" y="18.0" />
             </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.typepersonne">
-              <point x="178.875" y="-202.0" />
-              <point x="2896.9583333333335" y="333.0" />
-              <point x="2960.8333333333335" y="333.0" />
-              <point x="0.0" y="37.0" />
+            <edge source="\App\Controller\ErrorController" target="\Core\Controller\Controller">
+              <point x="0.0" y="-18.0" />
+              <point x="69.5" y="56.0" />
+              <point x="273.875" y="56.0" />
+              <point x="-40.125" y="18.0" />
             </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.estremunerer" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="53.0" y="-59.0" />
-              <point x="2478.0" y="1124.0" />
-              <point x="3196.666666666667" y="1124.0" />
-              <point x="-77.33333333333348" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cvdr" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="52.5" y="-70.0" />
-              <point x="1129.5000000000002" y="1134.0" />
-              <point x="1386.2798971861478" y="1134.0" />
-              <point x="-22.57142857142867" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.compteurvisite" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="0.0" y="-59.0" />
-              <point x="3026.5" y="1144.0" />
-              <point x="3248.2222222222226" y="1144.0" />
-              <point x="-25.77777777777783" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.departement" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.region">
-              <point x="0.0" y="-59.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.diplomeparcv" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="-47.5" y="-48.0" />
-              <point x="1863.5000000000002" y="1124.0" />
-              <point x="1476.5656114718622" y="1124.0" />
-              <point x="67.71428571428578" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cvad" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="0.0" y="-36.5" />
-              <point x="1510.5000000000002" y="1144.0" />
-              <point x="1431.4227543290049" y="1144.0" />
-              <point x="22.57142857142844" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.questionreponse" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne">
-              <point x="0.0" y="-114.0" />
-              <point x="2727.5" y="1104.0" />
-              <point x="2676.999098124099" y="1104.0" />
-              <point x="2676.999098124099" y="792.0" />
-              <point x="2718.0833333333335" y="792.0" />
-              <point x="0.0" y="202.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncedr" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.qualificationannoncedr">
-              <point x="88.0" y="-136.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.commande" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne">
-              <point x="71.75" y="-92.0" />
-              <point x="426.25" y="782.0" />
-              <point x="2527.2833333333333" y="782.0" />
-              <point x="-190.80000000000018" y="202.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annonceod" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.categorie">
-              <point x="117.0" y="-114.0" />
-              <point x="4480.999098124099" y="1144.0" />
-              <point x="4628.5" y="1144.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.emploidutemps" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="36.75" y="-36.5" />
-              <point x="2262.25" y="1114.0" />
-              <point x="3170.8888888888887" y="1114.0" />
-              <point x="-103.11111111111131" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.disponibilites" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.jourdetravail">
-              <point x="47.5" y="-59.0" />
-              <point x="1748.5000000000002" y="1144.0" />
-              <point x="2054.749098124099" y="1144.0" />
-              <point x="-41.75" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annonceod" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="-117.0" y="-114.0" />
-              <point x="4246.999098124099" y="1124.0" />
-              <point x="3351.333333333334" y="1124.0" />
-              <point x="77.33333333333348" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne">
-              <point x="0.0" y="-48.0" />
-              <point x="1408.8513257575764" y="792.0" />
-              <point x="2622.6833333333334" y="792.0" />
-              <point x="-95.40000000000009" y="202.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.adresselivraison" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne">
-              <point x="62.75" y="81.0" />
-              <point x="2803.0833333333335" y="333.0" />
-              <point x="2777.7083333333335" y="333.0" />
-              <point x="59.625" y="-202.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.zonedeparution" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.pays">
-              <point x="-37.25" y="-36.5" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncedr" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="-88.0" y="-136.0" />
-              <point x="3699.0" y="1134.0" />
-              <point x="3325.5555555555557" y="1134.0" />
-              <point x="51.55555555555566" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annonceod" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.paiementannonceod">
-              <point x="-39.0" y="-114.0" />
-              <point x="4324.999098124099" y="1114.0" />
-              <point x="4170.5" y="1114.0" />
-              <point x="0.0" y="136.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.travailledans" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne">
-              <point x="-41.5" y="-36.5" />
-              <point x="2999.5833333333335" y="792.0" />
-              <point x="2813.4833333333336" y="792.0" />
-              <point x="95.40000000000009" y="202.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.commande" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.facture">
-              <point x="95.66666666666674" y="92.0" />
-              <point x="450.16666666666674" y="1144.0" />
-              <point x="457.5" y="1144.0" />
-              <point x="51.5" y="-59.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.competenceducv" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="55.0" y="-48.0" />
-              <point x="897.0000000000002" y="1124.0" />
-              <point x="1363.7084686147193" y="1124.0" />
-              <point x="-45.14285714285711" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.facture" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.commande">
-              <point x="-51.5" y="-59.0" />
-              <point x="0.0" y="92.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.estlaphotode" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="-43.0" y="-36.5" />
-              <point x="4793.0" y="1104.0" />
-              <point x="3377.1111111111113" y="1104.0" />
-              <point x="103.11111111111131" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.disponibilites" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="-47.5" y="-59.0" />
-              <point x="1653.5000000000002" y="1134.0" />
-              <point x="1453.9941829004335" y="1134.0" />
-              <point x="45.14285714285711" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.questionreponse" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.typemessage">
-              <point x="-104.33333333333348" y="-114.0" />
-              <point x="2623.166666666667" y="1104.0" />
-              <point x="2591.499098124099" y="1104.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncead" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="0.0" y="-48.0" />
-              <point x="3495.0" y="1144.0" />
-              <point x="3299.7777777777783" y="1144.0" />
-              <point x="25.77777777777783" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cvdr" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.poste">
-              <point x="-52.5" y="-70.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.questionreponse" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="104.33333333333348" y="-114.0" />
-              <point x="2831.833333333334" y="1134.0" />
-              <point x="3222.4444444444443" y="1134.0" />
-              <point x="-51.55555555555566" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.zonedeparution" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="37.25" y="-36.5" />
-              <point x="667.0000000000002" y="1114.0" />
-              <point x="1341.1370400432907" y="1114.0" />
-              <point x="-67.71428571428578" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.emploidutemps" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.jourdetravail">
-              <point x="-36.75" y="-36.5" />
-              <point x="2188.75" y="1144.0" />
-              <point x="2138.249098124099" y="1144.0" />
-              <point x="41.75" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.travailledans" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cabinet">
-              <point x="41.5" y="-36.5" />
-              <point x="3082.5833333333335" y="792.0" />
-              <point x="3938.9744769119775" y="792.0" />
-              <point x="-101.5" y="169.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.diplomeparcv" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.diplome">
-              <point x="47.5" y="-48.0" />
-              <point x="1958.5000000000002" y="1134.0" />
-              <point x="1907.999098124099" y="1134.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.lignedecommande" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.produits">
-              <point x="-51.75" y="-48.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.commande" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.etat">
-              <point x="-71.75" y="-92.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.urgente" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral">
-              <point x="0.0" y="-59.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photocv" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.cv">
-              <point x="0.0" y="-59.0" />
-              <point x="1308.5000000000002" y="1144.0" />
-              <point x="1408.8513257575764" y="1144.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.adresselivraison">
-              <point x="-59.625" y="-202.0" />
-              <point x="2658.4583333333335" y="333.0" />
-              <point x="2677.5833333333335" y="333.0" />
-              <point x="-62.75" y="81.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.competenceducv" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.competencescv">
-              <point x="-55.0" y="-48.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annonceod" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.typeannonceod">
-              <point x="39.0" y="-114.0" />
-              <point x="4402.999098124099" y="1144.0" />
-              <point x="4444.5" y="1144.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.questionreponse" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.questionreponse">
-              <point x="0.0" y="114.0" />
-              <point x="2727.5" y="1434.0" />
-              <point x="2551.0" y="1434.0" />
-              <point x="2551.0" y="1300.0" />
-              <point x="-156.5" y="-0.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.lignedecommande" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.commande">
-              <point x="51.75" y="-48.0" />
-              <point x="199.0" y="1144.0" />
-              <point x="258.8333333333335" y="1144.0" />
-              <point x="-95.66666666666669" y="92.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.estremunerer" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.remuneration">
-              <point x="-53.0" y="-59.0" />
-              <point x="2372.0" y="1104.0" />
-              <point x="2321.499098124099" y="1104.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.annoncegeneral" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.personne">
-              <point x="0.0" y="-70.0" />
-              <point x="3274.0" y="782.0" />
-              <point x="2908.883333333333" y="782.0" />
-              <point x="190.79999999999973" y="202.0" />
-            </edge>
-            <edge source="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.estlaphotode" target="198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photosannonceod">
-              <point x="43.0" y="-36.5" />
-              <point x="0.0" y="70.0" />
+            <edge source="\App\Controller\UserController" target="\Core\Controller\Controller">
+              <point x="0.0" y="-18.0" />
+              <point x="395.0" y="66.0" />
+              <point x="327.375" y="66.0" />
+              <point x="13.375" y="18.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.10228344970749198" x="2336.0" y="488.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-163.0" y="-123.0" />
           <SelectedNodes>
-            <node>198db9fb-01e1-44df-a48b-a78c0ccd574b.TABLE:5000_chirdentdr.photosannonceod</node>
+            <node>\App\Controller\HomeController</node>
           </SelectedNodes>
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
+          <Categories />
           <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/198db9fb-01e1-44df-a48b-a78c0ccd574b/console_1.sql">
+    <entry file="file://$PROJECT_DIR$/Core/Autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Entity/Adresse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/navBarLateral.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/HTML/TemplateForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/HTML/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Home/cgu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="571" column="0" selection-start-line="571" selection-start-column="0" selection-end-line="571" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Entity/Departement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OccasionDentaire/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.309795">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Error/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meno.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/PersonneRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#144#282#0#PHP" expanded="false" />
+            <element signature="e#287#2404#0#PHP" expanded="false" />
+            <element signature="e#2409#2869#0#PHP" expanded="false" />
+            <element signature="e#2874#4334#0#PHP" expanded="false" />
+            <element signature="e#4339#4762#0#PHP" expanded="false" />
+            <element signature="e#4768#5043#0#PHP" expanded="false" />
+            <element signature="e#5048#6009#0#PHP" expanded="false" />
+            <marker date="1490547872643" expanded="true" signature="478:538" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="929:1251" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="2497:2551" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="3042:3190" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="3759:3917" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="4422:4484" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="4844:4897" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="5193:5478" placeholder="..." />
+            <marker date="1490547872643" expanded="true" signature="6105:6174" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Entity/AnnonceGeneral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6153846">
+          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
+          <folding>
+            <marker date="1490606181693" expanded="true" signature="2666:2712" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Error/nothing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Entity/Annonceod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4369748">
+          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/User/modifpass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/User/livraison.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.423077">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/AnnoncesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6538461">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/DepartementController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Entity/Personne.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="191" column="5" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Annoncesod/view_annonce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/DepartementRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/User/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Templates/default2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/AnnoncesodController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#121#155#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Annoncesod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/form/Assistante-dentaire.php">
+    <entry file="file://$PROJECT_DIR$/App/Model/TypePersonneRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <marker date="1490545155938" expanded="true" signature="627:682" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/User/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/form/cabinet-dentaire.php">
+    <entry file="file://$PROJECT_DIR$/App/Controller/PersonneController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <folding>
+            <element signature="e#306#891#0#PHP" expanded="false" />
+            <element signature="e#896#2540#0#PHP" expanded="false" />
+            <element signature="e#2545#2690#0#PHP" expanded="false" />
+            <element signature="e#4071#4960#0#PHP" expanded="false" />
+            <element signature="e#4965#5824#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.3461537">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/SPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Annoncesod/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/AnnoncesodRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.269231">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1490621496245" expanded="true" signature="273:403" placeholder="SELECT * FRO... annonceod" />
+            <marker date="1490621496245" expanded="true" signature="273:409" placeholder="SELECT * FRO... annonceod" />
+            <marker date="1490621496245" expanded="true" signature="273:421" placeholder="SELECT * FRO... annonceod" />
+            <marker date="1490621496245" expanded="true" signature="273:422" placeholder="SELECT * FRO... annonceod" />
+            <marker date="1490621496245" expanded="true" signature="273:433" placeholder="SELECT * FRO... annonceod" />
+            <marker date="1490621496245" expanded="true" signature="831:961" placeholder="SELECT * FRO... annonceod" />
+            <marker date="1490621496245" expanded="true" signature="1146:1284" placeholder="SELECT * FRO... annonceod" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/User/profil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="84" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/navBarLateral.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26333907">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/Templates/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6919105">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
