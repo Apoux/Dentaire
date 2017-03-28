@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms | AppStrap Bootstrap Theme by Themelize.me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- @todo: fill with your company info or remove -->
+    <meta name="description" content="">
+    <meta name="author" content="Themelize.me">
+    
+    <!-- Bootstrap 4.0.0-alpha.6 CSS via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    
+    <!-- Font Awesome 4.7.0 via CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+    
+    <!-- Plugin: flag icons - http://lipis.github.io/flag-icon-css/ -->
+    <link href="assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    
+    <!-- Theme style -->
+    <link href="assets/css/theme-style.min.css" rel="stylesheet">
+    
+    <!--Your custom colour override-->
+    <link href="#" id="colour-scheme" rel="stylesheet">
+    
+    <!-- Your custom override -->
+    <link href="assets/css/custom-style.css" rel="stylesheet">
+    
+    
+    <!-- Le fav and touch icons - @todo: fill with your icons or remove -->
+    <link rel="shortcut icon" href="assets/assets/img/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/assets/img/icons/114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/assets/img/icons/72x72.png">
+    <link rel="apple-touch-icon" href="assets/assets/img/icons/default.png">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rambla' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    
+    <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+  </head>
+  
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-elements-forms navbar-layout-default">
+    
+    <!-- @plugin: page loading indicator, delete to remove loader -->
+    <div class="page-loader" data-toggle="page-loader"></div>
+    
+    <a href="#content" id="top" class="sr-only">Skip to content</a> 
+    
+    <!-- ======== @Region: #header ======== -->
+    <div id="header">
+      <!--Branding & Navigation Region-->
+      
+      <!--Hidden Header Region-->
+      <div class="header-hidden collapse">
+        <div class="header-hidden-inner container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h3>
+                About Us
+              </h3>
+              <p>Making the web a prettier place one template at a time! We make beautiful, quality, responsive Drupal & web templates!</p>
+              <a href="about.htm" class="btn btn-sm btn-primary">Find out more</a> 
+            </div>
+            <div class="col-sm-6">
+              <!--@todo: replace with company contact details-->
+              <h3>
+                Contact Us
+              </h3>
+              <address>
+                <p>
+                  <abbr title="Phone"><i class="fa fa-phone"></i></abbr>
+                  019223 8092344
+                </p>
+                <p>
+                  <abbr title="Email"><i class="fa fa-envelope"></i></abbr>
+                  info@themelize.me
+                </p>
+                <p>
+                  <abbr title="Address"><i class="fa fa-home"></i></abbr>
+                  Sunshine House, Sunville. SUN12 8LU.
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Header upper region-->
+      <div class="header-upper">
+        <!--Show/hide trigger for #hidden-header -->
+        <div id="header-hidden-link">
+          <a href="#" title="Click me you'll get a surprise" class="show-hide" data-toggle="show-hide" data-target=".header-hidden"><i></i>Open</a>
+        </div>
+        <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+        <div class="header-inner container">
+          <!--user menu-->
+          <div class="header-block-flex flex-first mr-auto">
+            <nav class="nav nav-sm header-block-flex">
+              <a class="nav-link hidden-md-up" href="login.htm"><i class="fa fa-user"></i></a>
+              <a class="nav-link text-xs text-uppercase hidden-sm-down" href="#signup-modal" data-toggle="modal">Sign Up</a> <a class="nav-link text-xs text-uppercase hidden-sm-down" href="#login-modal" data-toggle="modal">Login</a> 
+            </nav>
+            <div class="header-divider header-divider-sm"></div>
+            <!--language menu-->
+            <div class="dropdown dropdowns-no-carets">
+              <a href="#en" class="nav-link text-xs p-1 dropdown-toggle" data-toggle="dropdown"><i class="flag-icon flag-icon-gb"></i></a>
+              <div class="dropdown-menu dropdown-menu-mini dropdown-menu-primary">
+                <a href="#es" class="dropdown-item lang-es"><i class="flag-icon flag-icon-es"></i> Spanish</a>
+                <a href="#pt" class="dropdown-item lang-pt"><i class="flag-icon flag-icon-pt"></i> Portguese</a>
+                <a href="#cn" class="dropdown-item lang-cn"><i class="flag-icon flag-icon-cn"></i> Chinese</a>
+                <a href="#se" class="dropdown-item lang-se"><i class="flag-icon flag-icon-se"></i> Swedish</a>
+              </div>
+            </div>
+          </div>
+          <!--social media icons-->
+          <div class="nav nav-icons header-block flex-last">
+            <!--@todo: replace with company social media details-->
+            <a href="#" class="nav-link"> <i class="fa fa-twitter-square icon-1x"></i> <span class="sr-only">Twitter</span> </a>
+            <a href="#" class="nav-link"> <i class="fa fa-facebook-square icon-1x"></i> <span class="sr-only">Facebook</span> </a>
+            <a href="#" class="nav-link"> <i class="fa fa-linkedin-square icon-1x"></i> <span class="sr-only">Linkedin</span> </a>
+            <a href="#" class="nav-link"> <i class="fa fa-google-plus-square icon-1x"></i> <span class="sr-only">Google plus</span> </a>
+          </div>
+        </div>
+      </div>
+      <div data-toggle="sticky">
+        
+        <!--Header search region - hidden by default -->
+        <div class="header-search collapse" id="search">
+          <form class="search-form container">
+            <input type="text" name="search" class="form-control search" value="" placeholder="Search">
+            <button type="button" class="btn btn-link"><span class="sr-only">Search </span><i class="fa fa-search fa-flip-horizontal search-icon"></i></button>
+            <button type="button" class="btn btn-link close-btn" data-toggle="search-form-close"><span class="sr-only">Close </span><i class="fa fa-times search-icon"></i></button>
+          </form>
+        </div>
+        
+        <!--Header & Branding region-->
+        <div class="header">
+          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+          <div class="header-inner container">
+            <!--branding/logo -->
+            <div class="header-brand flex-first">
+              <a class="header-brand-text" href="index.htm" title="Home">
+                <h1>
+                  <span>App</span>Strap<span>.</span>
+                </h1>
+              </a>
+              <div class="header-divider hidden-md-down"></div>
+              <div class="header-slogan hidden-md-down">Bootstrap 4 Theme</div>
+            </div>
+            <!-- other header content -->
+            <div class="header-block flex-last">
+              
+              <!--Search trigger -->
+              <a href="#search" class="btn btn-icon btn-link header-btn float-right flex-last" data-toggle="search-form" data-target=".header-search"><i class="fa fa-search fa-flip-horizontal search-icon"></i></a>
+              
+              <!-- mobile collapse menu button - data-toggle="collapse" = default BS menu - data-toggle="jpanel-menu" = jPanel Menu - data-toggle="overlay" = Overlay Menu -->
+              <a href="#top" class="btn btn-link btn-icon header-btn float-right hidden-lg-up" data-toggle="jpanel-menu" data-target=".navbar-main" data-direction="right"> <i class="fa fa-bars"></i> </a>
+            </div>
+            
+            <div class="navbar navbar-toggleable-md">
+              <!--everything within this div is collapsed on mobile-->
+              <div class="navbar-main collapse">
+                <!--main navigation-->
+                <ul class="nav navbar-nav float-lg-right dropdown-effect-fade">
+                  <!-- Homepages -->
+                  <li class="nav-item">
+                    <a href="index.htm" class="nav-link dropdown-toggle" id="indexs-drop" data-toggle="dropdown" data-hover="dropdown"> <i class="fa fa-home nav-link-icon"></i> <span class="hidden-xs-up">Home</span> </a>
+                    <div class="dropdown-menu" role="menu" aria-labelledby="indexs-drop">
+                      <a href="demo-travel-blog.htm" class="dropdown-item">Travel Blog</a> <a href="index-static.htm" class="dropdown-item">Homepage No Slider</a> <a href="index-boxed.htm" class="dropdown-item">Homepage Boxed</a> <a href="index-promo-header.htm" class="dropdown-item">Promo Header</a> <a href="index-jobs.htm" class="dropdown-item">Jobs Homepage</a> <a href="index-corporate.htm" class="dropdown-item">Corporate Homepage</a> 
+                      <div class="dropdown dropdown-submenu">
+                        <a href="#" class="dropdown-item" id="index-onepagers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">One Pagers</a> 
+                        <!-- One Pagers: Dropdown Menu -->
+                        <div class="dropdown-menu" role="menu" aria-labelledby="index-onepagers-drop"> <a href="index-onepager.htm" class="dropdown-item">One Pager Slideshow</a> <a href="index-onepager-image.htm" class="dropdown-item">One Pager Image</a> <a href="index-onepager-image-full-height.htm" class="dropdown-item">One Pager Image Full Height</a> <a href="index-onepager-bg-slideshow.htm" class="dropdown-item">One Pager Background Slideshow</a> </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <!-- Pages -->
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="pages-drop" data-toggle="dropdown" data-hover="dropdown">Pages</a> 
+                    <!-- Menu -->
+                    <div class="dropdown-menu">
+                      <div class="dropdown dropdown-submenu">
+                        <a href="about.htm" class="dropdown-item dropdown-toggle" id="about-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">About</a> 
+                        <!-- Dropdown Menu -->
+                        <div class="dropdown-menu" role="menu" aria-labelledby="about-drop"> <a href="about.htm" class="dropdown-item">About Us Basic</a> <a href="about-extended.htm" class="dropdown-item">About Us Extended</a> <a href="about-me.htm" class="dropdown-item">About Me</a> <a href="team.htm" class="dropdown-item">Team List</a> <a href="team-grid.htm" class="dropdown-item">Team Grid</a> <a href="team-member.htm" class="dropdown-item">Team Member</a> <a href="contact.htm" class="dropdown-item">Contact</a> <a href="contact.php" class="dropdown-item">Contact (PHP)</a> </div>
+                      </div>
+                      <div class="dropdown dropdown-submenu">
+                        <a href="blog.htm" class="dropdown-item dropdown-toggle" id="blog-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Blog</a> 
+                        <!-- Dropdown Menu -->
+                        <div class="dropdown-menu"> <a href="blog.htm" class="dropdown-item">Blog List Right Sidebar</a> <a href="blog-leftbar.htm" class="dropdown-item">Blog List Left Sidebar</a> <a href="blog-timeline.htm" class="dropdown-item">Blog List Timeline</a> <a href="blog-grid.htm" class="dropdown-item">Blog List Grid</a> <a href="blog-post.htm" class="dropdown-item">Blog Post</a> <a href="blog-post-video.htm" class="dropdown-item">Blog Post With Video</a> <a href="blog-post-slideshow.htm" class="dropdown-item">Blog Post With Slideshow</a> <a href="blog-post-audio.htm" class="dropdown-item">Blog Post With Audio Clip</a> </div>
+                      </div>
+                      <div class="dropdown dropdown-submenu">
+                        <a href="pricing.htm" class="dropdown-item dropdown-toggle" id="pricing-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Pricing</a> 
+                        <!-- pricing pages -->
+                        <div class="dropdown-menu"> <a href="pricing.htm" class="dropdown-item">Pricing Plans</a> <a href="pricing-tables.htm" class="dropdown-item">Comparison Tables</a> </div>
+                      </div>
+                      <div class="dropdown dropdown-submenu">
+                        <a href="timeline.htm" class="dropdown-item dropdown-toggle" id="timeline-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Timeline</a> 
+                        <!-- timelines -->
+                        <div class="dropdown-menu" role="menu" aria-labelledby="timeline-drop"> <a href="timeline.htm" class="dropdown-item">Timeline Default</a> <a href="timeline-left.htm" class="dropdown-item">Timeline Left</a> <a href="timeline-right.htm" class="dropdown-item">Timeline Right</a> <a href="timeline-stacked.htm" class="dropdown-item">Timeline Stacked</a> </div>
+                      </div>
+                      <a href="customers.htm" class="dropdown-item">Customers</a> <a href="features.htm" class="dropdown-item">Features/Services</a> <a href="login.htm" class="dropdown-item">Login</a> <a href="signup.htm" class="dropdown-item">Sign Up</a> <a href="starter.htm" class="dropdown-item">Starter Snippets</a> <a href="404.htm" class="dropdown-item">404 Error</a> 
+                    </div>
+                  </li>
+                  
+                  <!-- Features -->
+                  <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" id="more-drop" data-toggle="dropdown" data-hover="dropdown">Features</a> 
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown-menu">
+                      <div class="dropdown dropdown-submenu dropdown-menu-left">
+                        <a href="headers.htm" class="dropdown-item dropdown-toggle" id="headers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Header Variations (17)</a> 
+                        <!-- Header variations -->
+                        <div class="dropdown-menu" role="menu" aria-labelledby="headers-drop"> <a href="header-elements.htm" class="dropdown-item">Header Elements</a> <a href="header-offcanvas.htm" class="dropdown-item">Header Off Canvas</a> <a href="header-collapse-menu.htm" class="dropdown-item">Header Collapse Menu</a> <a href="header-overlay-menu.htm" class="dropdown-item">Header Overlay Menu</a> <a href="header-collapse-menu-responsive.htm" class="dropdown-item">Header Responsive Collapse Menu</a> <a href="header-fullwidth.htm" class="dropdown-item">Header Full Width</a> <a href="header-navbar-below.htm" class="dropdown-item">Header Navbar Below</a> <a href="header-compact.htm" class="dropdown-item">Header Compact</a> <a href="header-dark.htm" class="dropdown-item">Header Dark</a> <a href="header-primary.htm" class="dropdown-item">Header Primary</a> <a href="header-transparent.htm" class="dropdown-item">Header Transparent</a> <a href="header-transparent-dark.htm" class="dropdown-item">Header Transparent Dark</a> <a href="header-transparent-primary.htm" class="dropdown-item">Header Transparent Primary</a> <a href="header-translucent.htm" class="dropdown-item">Header Translucent</a> <a href="header-translucent-dark.htm" class="dropdown-item">Header Translucent Dark</a> <a href="header-translucent-primary.htm" class="dropdown-item">Header Translucent Primary</a> <a href="header-nav-left.htm" class="dropdown-item">Header Nav Left</a> <a href="header-bottom.htm" class="dropdown-item">Header Bottom</a> </div>
+                      </div>
+                      <div class="dropdown dropdown-submenu dropdown-menu-left">
+                        <a href="headers.htm" class="dropdown-item dropdown-toggle" id="footers-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Footer Variations (5)</a> 
+                        <!-- Header variations -->
+                        <div class="dropdown-menu" role="menu" aria-labelledby="footers-drop"> <a href="footer-light.htm" class="dropdown-item">Footer Light</a> <a href="footer-compact.htm" class="dropdown-item">Footer Compact</a> <a href="footer-menus.htm" class="dropdown-item">Footer Menus</a> <a href="footer-compact-light.htm" class="dropdown-item">Footer Compact Light</a> <a href="footer-menus-light.htm" class="dropdown-item">Footer Menus Light</a> </div>
+                      </div>
+                      <div class="dropdown dropdown-submenu dropdown-menu-left">
+                        <a href="sliders.htm" class="dropdown-item dropdown-toggle" id="slider-drop" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Sliders</a> 
+                        <!-- Sliders -->
+                        <div class="dropdown-menu">
+                          <!--Slider Revolution -->
+                          <h4 class="dropdown-header">
+                            Slider Revolution
+                          </h4>
+                          <a href="slider-revolution-default.htm" class="dropdown-item">Default</a> <a href="slider-revolution-full.htm" class="dropdown-item">Full Width</a> <a href="slider-revolution-behind.htm" class="dropdown-item">Behind Navbar</a> <a href="slider-revolution-boxed.htm" class="dropdown-item">Boxed</a> 
+                          <!--Backstretch Slider-->
+                          <h4 class="dropdown-header">
+                            Backstretch
+                          </h4>
+                          <a href="backstretch.htm" class="dropdown-item">Background Slideshow</a> <a href="backstretch-boxed.htm" class="dropdown-item">Boxed Background Slideshow</a> 
+                          <!--Flexslider-->
+                          <h4 class="dropdown-header">
+                            Flexslider
+                          </h4>
+                          <a href="flexslider-default.htm" class="dropdown-item">Default</a> <a href="flexslider-full.htm" class="dropdown-item">Full Width</a> <a href="flexslider-behind.htm" class="dropdown-item">Behind Navbar</a> <a href="flexslider-boxed.htm" class="dropdown-item">Boxed</a> 
+                        </div>
+                      </div>
+                      <a href="grid.htm" class="dropdown-item">Grid System</a> <a href="flexbox.htm" class="dropdown-item">Flexbox!</a> <a href="colours.htm" class="dropdown-item">Theme Colours</a> 
+                    </div>
+                  </li>
+                  
+                  <!-- Elements/shortcodes -->
+                  <li class="nav-item dropdown dropdown-mega-menu dropdown-mega-menu-75">
+                    <a href="#" class="nav-link dropdown-toggle" id="shop-drop" data-toggle="dropdown" data-hover="dropdown">Shop</a> 
+                    <!-- Dropdown Menu - mega menu-->
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h3 class="dropdown-header mt-0 pt-0">
+                            Pages
+                          </h3>
+                          <a href="shop.htm" class="dropdown-item">Shop Home</a> <a href="shop-cart.htm" class="dropdown-item">Cart</a> <a href="shop-checkout.htm" class="dropdown-item">Checkout</a> <a href="shop-confirmation.htm" class="dropdown-item">Confirmation</a> <a href="shop-grid.htm" class="dropdown-item">Products Grid</a> <a href="shop-list.htm" class="dropdown-item">Products List</a> <a href="shop-product.htm" class="dropdown-item">Product View</a> 
+                        </div>
+                        <div class="col-lg-6 hidden-md-down">
+                          <h3 class="dropdown-header mt-0 pt-0">
+                            Widget <span class="badge badge-primary text-uppercase">Hot</span>
+                          </h3>
+                          <div class="dropdown-widget">
+                            <!-- Shop product carousel Uses Owl Carousel plugin All options here are customisable from the data-owl-carousel-settings="{OBJECT}" item via data- attributes: http://www.owlgraphic.com/owlcarousel/#customizing ie. data-settings="{"items": "4", "lazyLoad":"true", "navigation":"true"}" -->
+                            <div class="products-carousel owl-nav-over" data-toggle="owl-carousel" data-owl-carousel-settings='{"items": 1,"responsive":{"0":{"items":1,"nav":true, "dots":false}}}'>
+                              <a href="#">
+                                <img src="assets/img/shop/jacket-1.jpg" alt="Item 1 image" class="lazyOwl img-fluid" />
+                              </a>
+                              <a href="#">
+                                <img src="assets/img/shop/jacket-2.jpg" alt="Item 2 image" class="lazyOwl img-fluid" />
+                              </a>
+                              <a href="#">
+                                <img src="assets/img/shop/jacket-3.jpg" alt="Item 3 image" class="lazyOwl img-fluid" />
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <!-- Elements/shortcodes -->
+                  <li class="nav-item dropdown dropdown-mega-menu active">
+                    <a href="#" class="nav-link dropdown-toggle" id="elements-drop" data-toggle="dropdown" data-hover="dropdown">Elements</a> 
+                    <!-- Dropdown Menu - mega menu-->
+                    <div class="dropdown-menu">
+                      <h4 class="dropdown-header hidden-md-down mt-0">
+                        29 pages of elements/snippets <i class="new-tag">Updated!</i>
+                      </h4>
+                      <div class="row">
+                        <div class="col-lg-3"> <a href="elements-alerts.htm" class="dropdown-item">Alerts</a> <a href="elements-animation.htm" class="dropdown-item">Animations</a> <a href="elements-badges.htm" class="dropdown-item">Badges</a> <a href="elements-button-groups.htm" class="dropdown-item">Button Groups</a> <a href="elements-buttons.htm" class="dropdown-item">Buttons</a> <a href="elements-cards.htm" class="dropdown-item">Cards</a> <a href="elements-carousels.htm" class="dropdown-item">Carousels</a> </div>
+                        <div class="col-lg-3"> <a href="elements-collapse.htm" class="dropdown-item">Collapse / Accordions</a> <a href="elements-colour-utils.htm" class="dropdown-item">Colours Utils</a> <a href="elements-counters.htm" class="dropdown-item">Counters</a> <a href="elements-ctas.htm" class="dropdown-item">Call To Action Blocks</a> <a href="elements-dropdowns.htm" class="dropdown-item">Dropdowns</a> <a href="elements-forms.htm" class="dropdown-item active">Forms</a> <a href="elements-forms-input-groups.htm" class="dropdown-item">Forms Input Groups</a> </div>
+                        <div class="col-lg-3"> <a href="elements-icons.htm" class="dropdown-item">Iconsets</a> <a href="elements-list-groups.htm" class="dropdown-item">List Groups</a> <a href="elements-modals.htm" class="dropdown-item">Modals</a> <a href="elements-modals-onload.htm" class="dropdown-item">Modals Onload</a> <a href="elements-navs.htm" class="dropdown-item">Navs</a> <a href="elements-navs-tabbable.htm" class="dropdown-item">Tabbable Navs</a> <a href="elements-overlays.htm" class="dropdown-item">Overlays</a> </div>
+                        <div class="col-lg-3"> <a href="elements-progressbars.htm" class="dropdown-item">Progress Bars</a> <a href="elements-spacers.htm" class="dropdown-item">Spacers</a> <a href="elements-tables.htm" class="dropdown-item">Tables</a> <a href="elements-tooltips-popovers.htm" class="dropdown-item">Tooltips & Popovers</a> <a href="elements-type-effect.htm" class="dropdown-item">Type Effect</a> <a href="elements-typography.htm" class="dropdown-item">Typography</a> <a href="elements-utils.htm" class="dropdown-item">Utilities</a> </div>
+                        <div class="col-lg-3"> <a href="elements-video-blocks.htm" class="dropdown-item">Video Blocks</a> </div>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <!-- Mega menu example -->
+                  <li class="nav-item dropdown dropdown-mega-menu">
+                    <a href="#" class="nav-link dropdown-toggle" id="megamenu-drop" data-toggle="dropdown" data-hover="dropdown">Mega Menu</a> 
+                    <!-- Dropdown Menu - Mega Menu -->
+                    <div class="dropdown-menu">
+                      <h4 class="dropdown-header hidden-md-down mt-0">
+                        Mega Menu with links & text items
+                      </h4>
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <a href="features.htm" class="hidden-md-down">
+                            <img src="assets/img/features/feature-1.png" alt="Feature 1" class="img-fluid" />
+                          </a>
+                          <a href="features.htm" class="dropdown-item"><strong>Mobile Friendly</strong></a>
+                          <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
+                        </div>
+                        <div class="col-lg-3">
+                          <a href="features.htm" class="hidden-md-down">
+                            <img src="assets/img/features/feature-2.png" alt="Feature 2" class="img-fluid" />
+                          </a>
+                          <a href="features.htm" class="dropdown-item"><strong>24/7 Support</strong></a>
+                          <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
+                        </div>
+                        <div class="col-lg-3">
+                          <a href="features.htm" class="hidden-md-down">
+                            <img src="assets/img/features/feature-3.png" alt="Feature 3" class="img-fluid" />
+                          </a>
+                          <a href="features.htm" class="dropdown-item"><strong>99% Uptime</strong></a>
+                          <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
+                        </div>
+                        <div class="col-lg-3">
+                          <a href="features.htm" class="hidden-md-down">
+                            <img src="assets/img/features/feature-4.png" alt="Feature 4" class="img-fluid" />
+                          </a>
+                          <a href="features.htm" class="dropdown-item"><strong>Upgrade Assistance</strong></a>
+                          <span class="hidden-md-down">Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio!</span> 
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!--/.navbar-collapse -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ======== @Region: #content ======== -->
+    <div id="content">
+      <div class="container">
+        <h2 class="title-divider">
+          <span>Elements:</span><span class="font-weight-normal">Forms</span>
+        </h2>
+        
+        
+        <div class="row">
+          <!-- @Sidebar -->
+          <div class="col-md-3">
+            
+            <!-- Sections Menu-->
+            <div class="nav nav-section-menu">
+              <span class="nav-header">More Theme Elements</span> 
+              <a href="elements-alerts.htm" class="nav-link first">Alerts <i class="fa fa-angle-right"></i></a>
+              <a href="elements-animation.htm" class="nav-link">Animations <i class="fa fa-angle-right"></i></a>
+              <a href="elements-badges.htm" class="nav-link">Badges <i class="fa fa-angle-right"></i></a>
+              <a href="elements-button-groups.htm" class="nav-link">Button Groups <i class="fa fa-angle-right"></i></a>
+              <a href="elements-buttons.htm" class="nav-link">Buttons <i class="fa fa-angle-right"></i></a>
+              <a href="elements-cards.htm" class="nav-link">Cards <i class="fa fa-angle-right"></i></a>
+              <a href="elements-carousels.htm" class="nav-link">Carousels <i class="fa fa-angle-right"></i></a>
+              <a href="elements-collapse.htm" class="nav-link">Collapse / Accordions <i class="fa fa-angle-right"></i></a>
+              <a href="elements-colour-utils.htm" class="nav-link">Colours Utils <i class="fa fa-angle-right"></i></a>
+              <a href="elements-counters.htm" class="nav-link">Counters <i class="fa fa-angle-right"></i></a>
+              <a href="elements-ctas.htm" class="nav-link">Call To Action Blocks <i class="fa fa-angle-right"></i></a>
+              <a href="elements-dropdowns.htm" class="nav-link">Dropdowns <i class="fa fa-angle-right"></i></a>
+              <a href="elements-forms.htm" class="nav-link active">Forms <i class="fa fa-angle-right"></i></a>
+              <a href="elements-forms-input-groups.htm" class="nav-link">Forms Input Groups <i class="fa fa-angle-right"></i></a>
+              <a href="elements-icons.htm" class="nav-link">Iconsets <i class="fa fa-angle-right"></i></a>
+              <a href="elements-list-groups.htm" class="nav-link">List Groups <i class="fa fa-angle-right"></i></a>
+              <a href="elements-modals.htm" class="nav-link">Modals <i class="fa fa-angle-right"></i></a>
+              <a href="elements-modals-onload.htm" class="nav-link">Modals Onload <i class="fa fa-angle-right"></i></a>
+              <a href="elements-navs.htm" class="nav-link">Navs <i class="fa fa-angle-right"></i></a>
+              <a href="elements-navs-tabbable.htm" class="nav-link">Tabbable Navs <i class="fa fa-angle-right"></i></a>
+              <a href="elements-overlays.htm" class="nav-link">Overlays <i class="fa fa-angle-right"></i></a>
+              <a href="elements-progressbars.htm" class="nav-link">Progress Bars <i class="fa fa-angle-right"></i></a>
+              <a href="elements-spacers.htm" class="nav-link">Spacers <i class="fa fa-angle-right"></i></a>
+              <a href="elements-tables.htm" class="nav-link">Tables <i class="fa fa-angle-right"></i></a>
+              <a href="elements-tooltips-popovers.htm" class="nav-link">Tooltips & Popovers <i class="fa fa-angle-right"></i></a>
+              <a href="elements-type-effect.htm" class="nav-link">Type Effect <i class="fa fa-angle-right"></i></a>
+              <a href="elements-typography.htm" class="nav-link">Typography <i class="fa fa-angle-right"></i></a>
+              <a href="elements-utils.htm" class="nav-link">Utilities <i class="fa fa-angle-right"></i></a>
+              <a href="elements-video-blocks.htm" class="nav-link">Video Blocks <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-9">
+            <!--@Element: Forms-->
+            
+            <h3>
+              Form Elements
+            </h3>
+            <p>
+              Using the classes 
+              <code>.form-control</code>
+              (for inputs, selects, etc) and 
+              <code>.form-group</code>
+              for wrappers you can consistently style and layout forms.
+            </p>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleSelect1">Example select</label>
+                <select class="form-control" id="exampleSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleSelect2">Example multiple select</label>
+                <select multiple class="form-control" id="exampleSelect2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleTextarea">Example textarea</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+              </div>
+              <fieldset class="form-group">
+                <legend>Radio buttons</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Option one 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two 
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                    Option three is disabled 
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset class="form-group">
+                <legend>Checkboxes</legend>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="optionsCheckboxes" id="optionsCheckboxes1" value="option1" checked>
+                    Option one 
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="optionsCheckboxes" id="optionsCheckboxes2" value="option2">
+                    Option two 
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="optionsCheckboxes" id="optionsCheckboxes3" value="option3" disabled>
+                    Option three is disabled 
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset class="form-group">
+                <legend>Checkboxes/Radios inline</legend>
+                <div class="form-group">
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="optionsInline" id="optionsInline1" value="option1" checked>
+                      Option one 
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="optionsInline" id="optionsInline2" value="option2">
+                      Option two 
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline disabled">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="optionsInline" id="optionsInline3" value="option3" disabled>
+                      Option three is disabled 
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsInline" id="optionsInline4" value="option4" checked>
+                      Option one 
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsInline" id="optionsInline5" value="option5">
+                      Option two 
+                    </label>
+                  </div>
+                  <div class="form-check-inline disabled">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optionsInline" id="optionsInline6" value="option6" disabled>
+                      Option three is disabled 
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input">
+                  Check me out 
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Input examples
+            </h3>
+            <p>
+              Examples of how the various 
+              <code>input</code>
+              elements look when 
+              <code>.form-control</code>
+              is applied.
+            </p>
+            <div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">Text</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-sm-2 col-form-label">Search</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-email-input" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-url-input" class="col-sm-2 col-form-label">URL</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-tel-input" class="col-sm-2 col-form-label">Telephone</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-password-input" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="password" value="hunter2" id="example-password-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-number-input" class="col-sm-2 col-form-label">Number</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="number" value="42" id="example-number-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-datetime-local-input" class="col-sm-2 col-form-label">Date and time</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-date-input" class="col-sm-2 col-form-label">Date</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-month-input" class="col-sm-2 col-form-label">Month</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="month" value="2011-08" id="example-month-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-week-input" class="col-sm-2 col-form-label">Week</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="week" value="2011-W33" id="example-week-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-time-input" class="col-sm-2 col-form-label">Time</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-color-input" class="col-sm-2 col-form-label">Colour Picker</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-range-input" class="col-sm-2 col-form-label">Range</label>
+              <div class="col-sm-10">
+                <input class="form-control" type="range" min="0" max="225" id="example-range-input">
+              </div>
+            </div>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Rounded Input Form Controls
+            </h3>
+            <p>
+              Use the class 
+              <code>.form-control-rounded</code>
+              to 
+              <code>input</code>
+              elements to make them rounded, this can be used in combination with the <a href="elements-buttons.htm">rounded buttons</a> and <a href="elements-form-input-groups.htm">input groups</a>.
+            </p>
+            <div class="form-group row">
+              <label for="example-text-input" class="col-sm-2 col-form-label">Text</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="text" value="Artisanal kale" id="rounded-example-text-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-search-input" class="col-sm-2 col-form-label">Search</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="search" value="How do I shoot web" id="rounded-example-search-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-email-input" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="email" value="bootstrap@example.com" id="rounded-example-email-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-url-input" class="col-sm-2 col-form-label">URL</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="url" value="https://getbootstrap.com" id="rounded-example-url-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-tel-input" class="col-sm-2 col-form-label">Telephone</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="tel" value="1-(555)-555-5555" id="rounded-example-tel-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-password-input" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="password" value="hunter2" id="rounded-example-password-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-number-input" class="col-sm-2 col-form-label">Number</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="number" value="42" id="rounded-example-number-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-datetime-local-input" class="col-sm-2 col-form-label">Date and time</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="datetime-local" value="2011-08-19T13:45:00" id="rounded-example-datetime-local-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-date-input" class="col-sm-2 col-form-label">Date</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="date" value="2011-08-19" id="rounded-example-date-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-month-input" class="col-sm-2 col-form-label">Month</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="month" value="2011-08" id="rounded-example-month-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-week-input" class="col-sm-2 col-form-label">Week</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="week" value="2011-W33" id="rounded-example-week-input">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="example-time-input" class="col-sm-2 col-form-label">Time</label>
+              <div class="col-sm-10">
+                <input class="form-control form-control-rounded" type="time" value="13:45:00" id="rounded-example-time-input">
+              </div>
+            </div>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Inline Forms
+            </h3>
+            <p>
+              Use the class 
+              <code>.form-inline</code>
+              to 
+              <code>form</code>
+              elements to make 
+              <code>.form-control</code>
+              elements within the form display inline.
+            </p>
+            <form class="form-inline">
+              <label class="sr-only" for="inlineFormInput">Name</label>
+              <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon">@</div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+              </div>
+              <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox">
+                  Remember me 
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <h4 class="mt-3">
+              Extended Example
+            </h4>
+            <form class="form-inline p-3 bg-faded">
+              <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+              <select class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox">
+                  Remember me 
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary ml-md-auto">Submit</button>
+            </form>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Grid Layouts
+            </h3>
+            <p>
+              Forms support the default Bootstrap grid functionality so you can use the 
+              <code>.col-BREAKPOINT-WIDTH</code>
+              width classes throughout your forms.
+            </p>
+            <p>
+              You can also add the class 
+              <code>.col-form-label</code>
+              to 
+              <code>label</code>
+              elements to vertically center them with the row content.
+            </p>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-legend col-sm-2">Radios</label>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        Option one is this and that&mdash;be sure to include why it's great 
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        Option two can be something else and selecting it will deselect option one 
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                        Option three is disabled 
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-2">Checkbox</label>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox">
+                        Check me out 
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Form control sizes
+            </h3>
+            <p>
+              You can enlarge or shrink 
+              <code>.form-control</code>
+              elements by adding the classes 
+              <code>.form-control-lg</code>
+              or 
+              <code>.form-control-sm</code>
+              .
+            </p>
+            <h4>
+              Input elements
+            </h4>
+            <div class="form-group">
+              <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Default input">
+            </div>
+            <div class="form-group">
+              <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+            </div>
+            <h4 class="mt-4">
+              Select elements
+            </h4>
+            <div class="form-group">
+              <select class="form-control form-control-lg">
+                <option>Large select</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control">
+                <option>Default select</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control form-control-sm">
+                <option>Small select</option>
+              </select>
+            </div>
+            <h4 class="mt-4">
+              Within a grid layout
+            </h4>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="lgFormGroupInput" placeholder="you@example.com">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="smFormGroupInput" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-sm" id="smFormGroupInput" placeholder="you@example.com">
+                  </div>
+                </div>
+              </form>
+            </div>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Hidden labels
+            </h3>
+            <p>
+              When space is low it can be useful to hide form labels and use the HTML5 
+              <code>placeholder</code>
+              attribute on 
+              <code>input</code>
+              elements to show the label inside the form element instead.
+            </p>
+            <p>
+              Simply add 
+              <code>class="sr-only"</code>
+              to the 
+              <code>label</code>
+              element and then move the label text to a 
+              <code>placeholder</code>
+              attribute on the 
+              <code>input</code>
+              element instead.
+            </p>
+            <form class="form-inline">
+              <label class="sr-only" for="exampleInputEmail3">Email address</label>
+              <input type="email" class="form-control mr-sm-2 mb-2 mb-sm-0" id="exampleInputEmail3" placeholder="Enter email">
+              <label class="sr-only" for="exampleInputPassword3">Password</label>
+              <input type="password" class="form-control mr-sm-2 mb-2 mb-sm-0" id="exampleInputPassword3" placeholder="Password">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Static form controls
+            </h3>
+            <p>
+              Sometimes it's useful to form data to a user but not let them change it, this is where you can use the class 
+              <code>.form-control-static</code>
+              on a 
+              <code>p</code>
+              within your forms.
+            </p>
+            <form>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <p class="form-control-static mb-0">email@example.com</p>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+            </form>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Disabled form elements & readonly inputs
+            </h3>
+            <p>
+              You can disable single form elements by applying the boolean attribute 
+              <code>disabled</code>
+              to them OR apply it to a fieldset wrapper to disable all form elements within the fieldset.
+            </p>
+            <h4>
+              Single input
+            </h4>
+            <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+            <h4 class="mt-4">
+              Fieldset
+            </h4>
+            <form>
+              <fieldset disabled>
+                <div class="form-group">
+                  <label for="disabledTextInput">Disabled input</label>
+                  <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                </div>
+                <div class="form-group">
+                  <label for="disabledSelect">Disabled select menu</label>
+                  <select id="disabledSelect" class="form-control">
+                    <option>Disabled select</option>
+                  </select>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox">
+                    Can't check this 
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </fieldset>
+            </form>
+            <h4 class="mt-4">
+              Readonly
+            </h4>
+            <p>
+              Apply the readonly style by adding the boolean attribute 
+              <code>readonly</code>
+              to any form input. Readonly elements cannot be altered.
+            </p>
+            <input class="form-control" type="text" placeholder="Readonly input here....." readonly>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Help text
+            </h3>
+            <p>
+              Sometimes it's useful to tell users what information is needed for a given form field and this is where you can use the 
+              <code>.form-text</code>
+              on any static element within form groups to provide help text. Use 
+              <code>p</code>
+              tags for block level text and 
+              <code>small</code>
+              or 
+              <code>span</code>
+              tags to show inline.
+              <br />
+              You could also use <a href="elements-tooltips-popovers.htm">tooltips</a> as well.
+            </p>
+            <label for="inputPassword5">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <p id="passwordHelpBlock" class="form-text text-muted"> Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji. </p>
+            <h4 class="mt-4">
+              Inline
+            </h4>
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="inputPassword4">Password</label>
+                <input type="password" id="inputPassword4" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                <small id="passwordHelpInline" class="text-muted"> Must be 8-20 characters long. </small>
+              </div>
+            </form>
+            <h4 class="mt-4">
+              Tooltip form help
+            </h4>
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="inputPassword4">Password</label>
+                <input type="password" id="inputPassword4" class="form-control mr-2" aria-describedby="passwordHelpInline" placeholder="Password">
+                <a href="#" data-toggle="tooltip" title="Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji."><i class="fa fa-info-circle fa-lg text-info"></i></a>
+              </div>
+            </form>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Validation states
+            </h3>
+            <p>
+              Validation states help give users an instance visual feedback on whether their form input has passed validation. There are 3 clasess for this: 
+              <code>.has-success</code>
+              , 
+              <code>.has-warning</code>
+              & 
+              <code>.has-error</code>
+            </p>
+            <div class="form-group has-success">
+              <label class="form-control-label" for="inputSuccess1">Input with success</label>
+              <input type="text" class="form-control form-control-success" id="inputSuccess1">
+              <div class="form-control-feedback">Success! You've done it.</div>
+              <small class="form-text text-muted">Example help text that remains unchanged.</small>
+            </div>
+            <div class="form-group has-warning">
+              <label class="form-control-label" for="inputWarning1">Input with warning</label>
+              <input type="text" class="form-control form-control-warning" id="inputWarning1">
+              <div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+              <small class="form-text text-muted">Example help text that remains unchanged.</small>
+            </div>
+            <div class="form-group has-danger">
+              <label class="form-control-label" for="inputDanger1">Input with danger</label>
+              <input type="text" class="form-control form-control-danger" id="inputDanger1">
+              <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+              <small class="form-text text-muted">Example help text that remains unchanged.</small>
+            </div>
+            <h4 class="mt-4">
+              In horizontal forms
+            </h4>
+            <div class="container">
+              <form>
+                <div class="form-group row has-success">
+                  <label for="inputHorizontalSuccess" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-success" id="inputHorizontalSuccess" placeholder="name@example.com">
+                    <div class="form-control-feedback">Success! You've done it.</div>
+                    <small class="form-text text-muted">Example help text that remains unchanged.</small>
+                  </div>
+                </div>
+                <div class="form-group row has-warning">
+                  <label for="inputHorizontalWarning" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-warning" id="inputHorizontalWarning" placeholder="name@example.com">
+                    <div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+                    <small class="form-text text-muted">Example help text that remains unchanged.</small>
+                  </div>
+                </div>
+                <div class="form-group row has-danger">
+                  <label for="inputHorizontalDnger" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-danger" id="inputHorizontalDnger" placeholder="name@example.com">
+                    <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+                    <small class="form-text text-muted">Example help text that remains unchanged.</small>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <h4 class="mt-4">
+              On checkboxes
+            </h4>
+            <div class="form-check has-success">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="checkboxSuccess" value="option1">
+                Checkbox with success 
+              </label>
+            </div>
+            <div class="form-check has-warning">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="checkboxWarning" value="option1">
+                Checkbox with warning 
+              </label>
+            </div>
+            <div class="form-check has-danger">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" id="checkboxDanger" value="option1">
+                Checkbox with danger 
+              </label>
+            </div>
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Toggles
+            </h3>
+            <p class="mt-4">
+              Simply add data 
+              <code>data-toggle="switch"</code>
+              to any radio or checkbox element:
+            </p>
+            <p>
+              Example:
+              <br />
+              <code>&lt;input type="checkbox" data-toggle="switch" checked></code>
+            </p>
+            <p>Find more examples at <a href="http://www.bootstrap-switch.org/">Bootstrap Switch</a>.</p>
+            <h4 class="mt-4">
+              Sizes
+            </h4>
+            <input type="checkbox" data-toggle="switch" checked data-size="large">
+            <input type="checkbox" data-toggle="switch" checked>
+            <input type="checkbox" data-toggle="switch" checked data-size="small">
+            <input type="checkbox" data-toggle="switch" checked data-size="mini">
+            <h4 class="mt-4">
+              Styles
+            </h4>
+            <input type="checkbox" data-toggle="switch" checked data-off-color="primary">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="info" data-off-color="info">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="success" data-off-color="success">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="warning" data-off-color="warning">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="danger" data-off-color="danger">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="default" data-off-color="default">
+            <h4 class="mt-4">
+              Alternating styles with state
+            </h4>
+            <input type="checkbox" data-toggle="switch" checked data-on-color="primary" data-off-color="default">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="info" data-off-color="success">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="success" data-off-color="warning">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="warning" data-off-color="danger">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="danger" data-off-color="default">
+            <input type="checkbox" data-toggle="switch" checked data-on-color="default" data-off-color="primary">
+            
+            
+            <hr class="my-5" />
+            
+            
+            <h3>
+              Extended form styling is coming in the next release of AppStrap.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ======== @Region: #content-below ======== -->
+    <div id="content-below">
+      <!-- Awesome features call to action -->
+      <div class="bg-primary text-white py-4">
+        <div class="container">
+          <div class="row text-center text-lg-left">
+            <div class="col-12 col-lg-7 py-2">
+              <h2 class="text-uppercase font-weight-bold mt-0 mb-2">
+                <span class="text-shadow">Awesome</span> <span class="text-primary-darkend">Features</span>
+              </h2>
+              <h5 class="text-faded">
+                99.9% Uptime <span class="text-primary-darkend font-weight-bold px-lg-1">/</span> Free Upgrades <span class="text-primary-darkend font-weight-bold px-lg-1">/</span> Fully Responsive <span class="text-primary-darkend font-weight-bold px-lg-1">/</span> Bug Free 
+              </h5>
+            </div>
+            <div class="col-12 col-lg-5 py-2 text-lg-right">
+              <a href="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=themelizeme" class="btn btn-lg btn-primary btn-invert btn-rounded py-3 px-4">Get AppStrap Today<i class="fa fa-arrow-right ml-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- ======== @Region: #footer ======== -->
+    <footer id="footer" class="p-0">
+      <div class="container pt-6 pb-5">
+        <div class="row">
+          <div class="col-md-4">
+            <!--@todo: replace with company contact details-->
+            <h4 class="text-uppercase text-white">
+              Contact Us
+            </h4>
+            <address>
+              <ul class="list-unstyled">
+                <li>
+                  <abbr title="Phone"><i class="fa fa-phone fa-fw"></i></abbr>
+                  019223 8092344
+                </li>
+                <li>
+                  <abbr title="Email"><i class="fa fa-envelope fa-fw"></i></abbr>
+                  info@appstraptheme.com
+                </li>
+                <li>
+                  <abbr title="Address"><i class="fa fa-home fa-fw"></i></abbr>
+                  Sunshine House, Sunville. SUN12 8LU.
+                </li>
+              </ul>
+            </address>
+          </div>
+          
+          <div class="col-md-4">
+            <h4 class="text-uppercase text-white">
+              About Us
+            </h4>
+            <p>Making the web a prettier place one template at a time! We make beautiful, quality, responsive Drupal & web templates!</p>
+          </div>
+          
+          <div class="col-md-4">
+            <h4 class="text-uppercase text-white">
+              Newsletter
+            </h4>
+            <p>Stay up to date with our latest news and product releases by signing up to our newsletter.</p>
+            <!--@todo: replace with mailchimp code-->
+            <form>
+              <div class="input-group">
+                <label class="sr-only" for="email-field">Email</label>
+                <input type="text" class="form-control" id="email-field" placeholder="Email">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary" type="button">Go!</button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+      <hr class="my-0 hr-blank op-2" />
+      <!--@todo: replace with company copyright details-->
+      <div class="bg-inverse-dark text-sm py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0">Site template by <a href="appstraptheme.com" class="footer-link">AppStrap</a> | Copyright 2017 &copy; AppStrap</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-inline footer-links float-md-right mb-0">
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <a href="#top" class="btn btn-icon btn-inverse pos-fixed pos-b pos-r mr-3 mb-3 scroll-state-hidden hidden-md-down" title="Back to top" data-scroll="scroll-state"><i class="fa fa-chevron-up"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Style switcher - demo only - @todo: remove in production -->
+    <div class="colour-switcher">
+      <a href="#" class="colour-switcher-toggle" data-toggle="show" data-target=".colour-switcher"> <i class="fa fa-paint-brush"></i> </a>
+      <h5 class="text-uppercase my-0">
+        Theme Colours
+      </h5>
+      <hr />
+      <div class="theme-colours"> <a href="#green" class="green active" data-toggle="tooltip" data-placement="right" data-original-title="Green (Default)">Green</a> <a href="#red" class="red" data-toggle="tooltip" data-placement="right" data-original-title="Red">Red</a> <a href="#blue" class="blue" data-toggle="tooltip" data-placement="right" data-original-title="Blue">Blue</a> <a href="#purple" class="purple" data-toggle="tooltip" data-placement="right" data-original-title="Purple">Purple</a> <a href="#pink" class="pink" data-toggle="tooltip" data-placement="right" data-original-title="Pink">Pink</a> <a href="#orange" class="orange" data-toggle="tooltip" data-placement="right" data-original-title="Orange">Orange</a> <a href="#lime" class="lime" data-toggle="tooltip" data-placement="right" data-original-title="Lime">Lime</a> <a href="#blue-dark" class="blue-dark" data-toggle="tooltip" data-placement="right" data-original-title="Blue-dark">Blue-dark</a> <a href="#red-dark" class="red-dark" data-toggle="tooltip" data-placement="right" data-original-title="Red-dark">Red-dark</a> <a href="#brown" class="brown" data-toggle="tooltip" data-placement="right" data-original-title="Brown">Brown</a> <a href="#cyan-dark" class="cyan-dark" data-toggle="tooltip" data-placement="right" data-original-title="Cyan-dark">Cyan-dark</a> <a href="#yellow" class="yellow" data-toggle="tooltip" data-placement="right" data-original-title="Yellow">Yellow</a> <a href="#slate" class="slate" data-toggle="tooltip" data-placement="right" data-original-title="Slate">Slate</a> <a href="#olive" class="olive" data-toggle="tooltip" data-placement="right" data-original-title="Olive">Olive</a> <a href="#teal" class="teal" data-toggle="tooltip" data-placement="right" data-original-title="Teal">Teal</a> <a href="#green-bright" class="green-bright" data-toggle="tooltip" data-placement="right" data-original-title="Green-bright">Green-bright</a> </div>
+      <hr />
+      <small class="text-muted">Cookies are NOT enabled so colour selection is not persistent.</small>
+    </div>
+    <!--Hidden elements - excluded from jPanel Menu on mobile-->
+    <div class="hidden-elements jpanel-menu-exclude">
+      <!--@modal - signup modal-->
+      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">
+                Sign Up
+              </h4>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form action="signup.htm">
+                <div class="form-group">
+                  <h5>
+                    Price Plan
+                  </h5>
+                  <select class="form-control">
+                    <option>Basic</option>
+                    <option>Pro</option>
+                    <option>Pro +</option>
+                  </select>
+                </div>
+                <hr />
+                
+                <h5>
+                  Account Information
+                </h5>
+                <div class="form-group">
+                  <label class="sr-only" for="signup-first-name">First Name</label>
+                  <input type="text" class="form-control" id="signup-first-name" placeholder="First name">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="signup-last-name">Last Name</label>
+                  <input type="text" class="form-control" id="signup-last-name" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="signup-username">Userame</label>
+                  <input type="text" class="form-control" id="signup-username" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="signup-email">Email address</label>
+                  <input type="email" class="form-control" id="signup-email" placeholder="Email address">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="signup-password">Password</label>
+                  <input type="password" class="form-control" id="signup-password" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" value="term" class="form-check-input">
+                    I agree with the Terms and Conditions. 
+                  </label>
+                </div>
+                <hr />
+                <button class="btn btn-primary" type="submit">Sign up</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <small>Already signed up? <a href="login.htm">Login here</a>.</small>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+      
+      <!--@modal - login modal-->
+      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">
+                Login
+              </h4>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+              <form action="login.htm">
+                <div class="form-group">
+                  <label class="sr-only" for="login-email">Email</label>
+                  <input type="email" id="login-email" class="form-control email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="login-password">Password</label>
+                  <input type="password" id="login-password" class="form-control password" placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-primary">Login</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <small>Not a member? <a href="#" class="signup">Sign up now!</a></small>
+              <br />
+              <small><a href="#">Forgotten password?</a></small>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
+    </div>
+    
+    
+    <!--jQuery 1.12.0 via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Tether 1.1.1 via CDN, needed for Bootstrap Tooltips & Popovers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+    
+    <!-- Bootstrap 4.0.0-alpha.6 JS via CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+    
+    <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+    
+    <!--Custom scripts mainly used to trigger libraries/plugins -->
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,829 @@
+/*/////////////////////////////////////////////////////////////////////
+ // 
+ // Custom theme code styles
+ // Written by Themelize.me (http://themelize.me)
+ // 
+ // This is an empty starter template for overriding styles
+ // set by Bootstrap & the theme
+ // 
+ // ----------------------------------------------------
+ // 
+ // Remove unused code for better performances
+ // 
+ // ----------------------------------------------------
+ // 
+ // @see - Usefuls tools online for editing
+ // 1. http://charliepark.org/bootstrap_buttons/ - Button style generator
+ // 2. http://www.colorzilla.com/gradient-editor/ - CSS3 gradient maker
+ // 
+ // @note
+ // To ensure custom styles are picked up
+ // wrap definitions in body tag
+ // ie.
+ // body .navbar-inner {
+ //   background: #ff0000;
+ // }
+ // 
+ /////////////////////////////////////////////////////////////////////*/
+/*
+ * --------------------------------------------------
+ * 1. Common Elements
+ *--------------------------------------------------
+ */
+body a,
+body a:focus {
+  color: #00adbb;
+  text-decoration: none;
+}
+body a:hover {
+  color: #007e88;
+  text-decoration: underline;
+}
+body #footer {
+  border-top: 2px solid #00adbb;
+  /* primary colour */
+}
+body #footer #toplink i {
+  color: #00adbb;
+  /* primary colour */
+}
+body #header-hidden-link a.show-hide,
+body .flexslider-wrapper .flex-control-nav li a.flex-active,
+body .static-banner .flex-control-nav li a.flex-active {
+  background: #007e88;
+  /* primary colour */
+}
+body .flex-direction-nav a,
+body .flex-direction-nav a:before {
+  color: #00adbb !important;
+}
+.card-primary {
+  border-color: #00adbb;
+  background-color: #00adbb;
+}
+.card-outline-primary {
+  border-color: #00adbb;
+}
+.card.clickable-element:hover {
+  border: 1px solid #00adbb;
+}
+.tag-primary,
+.badge-primary,
+.bg-primary {
+  background-color: #00adbb !important;
+}
+.bg-primary-bright {
+  background-color: #00adbb !important;
+}
+.btn-link,
+.btn-link:hover {
+  color: #00adbb;
+}
+.text-primary,
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #00adbb !important;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #00adbb;
+  border-color: #0095a2;
+  color: white;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ffffff;
+  background-color: #007e88;
+  border-color: #001f22;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #007e88;
+  border-color: #005d64;
+}
+.btn-primary:active,
+.btn-primary.active,
+.show > .dropdown-toggle.btn-primary,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #007e88;
+  border-color: #005d64;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.show > .dropdown-toggle.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.show > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #ffffff;
+  background-color: #005d64;
+  border-color: #001f22;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-primary:disabled,
+fieldset[disabled] .btn-primary {
+  background-color: #00adbb;
+  border-color: #0095a2;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+.btn-primary:disabled:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+.btn-primary:disabled:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+.btn-primary:disabled.focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #00adbb;
+  border-color: #0095a2;
+}
+.btn-primary .badge {
+  color: #00adbb;
+  background-color: #ffffff;
+}
+.btn-outline-primary,
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #00adbb;
+  border-color: #00adbb;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary.disabled:hover,
+.btn-outline-primary:disabled:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.disabled:focus,
+.btn-outline-primary:disabled:focus {
+  color: white;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary.active,
+.btn-outline-primary:active,
+.btn-outline-primary.active:focus,
+.btn-outline-primary:active:focus,
+.show > .btn-outline-primary.dropdown-toggle,
+.open > .btn-outline-primary.dropdown-toggle {
+  background-color: #00adbb;
+  border-color: #00adbb;
+}
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-item.show .nav-link:focus,
+.nav-pills .nav-item.show .nav-link:hover,
+.nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open .nav-link:focus,
+.nav-pills .nav-item.open .nav-link:hover,
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover {
+  background-color: #00adbb;
+}
+.list-group-item-primary,
+a.list-group-item-primary,
+button.list-group-item-primary {
+  background-color: rgba(0, 173, 187, 0.25);
+  color: #004f55;
+}
+a.list-group-item-primary:hover,
+button.list-group-item-primary:hover,
+a.list-group-item-primary:focus,
+button.list-group-item-primary:focus {
+  color: #004f55;
+  background-color: rgba(0, 173, 187, 0.45);
+}
+.nav-section-menu .nav .nav-link:hover i,
+.nav-section-menu.nav .nav-link:hover i,
+.nav-section-menu .nav .nav-link.active i,
+.nav-section-menu.nav .nav-link.active i,
+.nav-section-menu .nav .nav-link.active:hover i,
+.nav-section-menu.nav .nav-link.active:hover i,
+.nav-section-menu .nav .active .nav-link i,
+.nav-section-menu.nav .active .nav-link i,
+.nav-section-menu .nav .active .nav-link:hover i,
+.nav-section-menu.nav .active .nav-link:hover i {
+  color: #00adbb !important;
+}
+.nav-section-menu .nav .nav-link.active,
+.nav-section-menu.nav .nav-link.active,
+.nav-section-menu .nav .nav-link.active:hover,
+.nav-section-menu.nav .nav-link.active:hover,
+.nav-section-menu .nav .active .nav-link,
+.nav-section-menu.nav .active .nav-link,
+.nav-section-menu .nav .active .nav-link:hover,
+.nav-section-menu.nav .active .nav-link:hover {
+  border-left-color: #00adbb;
+  color: #00adbb;
+}
+@media (min-width: 768px) {
+  .nav-section-menu.nav-section-menu-right .nav .nav-link.active,
+  .nav-section-menu.nav-section-menu-right.nav .nav-link.active,
+  .nav-section-menu.nav-section-menu-right .nav .nav-link.active:hover,
+  .nav-section-menu.nav-section-menu-right.nav .nav-link.active:hover,
+  .nav-section-menu.nav-section-menu-right .nav .active .nav-link,
+  .nav-section-menu.nav-section-menu-right.nav .active .nav-link,
+  .nav-section-menu.nav-section-menu-right .nav .active .nav-link:hover,
+  .nav-section-menu.nav-section-menu-right.nav .active .nav-link:hover {
+    border-right-color: #00adbb;
+  }
+}
+.nav-tabs.nav-stacked .active > .nav-link i,
+.nav-tabs.nav-stacked .active > .nav-link:hover i,
+.nav-tabs.nav-stacked .nav-link.active i,
+.nav-tabs.nav-stacked .nav-link.active:hover i,
+.nav-tabs .active > .nav-link,
+.nav-tabs .active > .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover {
+  color: #00adbb;
+}
+.nav-tabs .active > .nav-link:before,
+.nav-tabs .nav-link.active:before {
+  background: #00adbb;
+}
+.page-link,
+.page-link:hover {
+  color: #00adbb;
+}
+.page-item.active .page-link,
+.page-item.active .page-link:focus,
+.page-item.active .page-link:hover {
+  background: #00adbb;
+  border-color: #00adbb;
+}
+.nav-steps .nav-link.active,
+.nav-steps .nav-link.active:hover {
+  background: #00adbb;
+  border-color: #00adbb;
+}
+.progress[value]::-webkit-progress-value {
+  background-color: #00adbb;
+}
+.progress[value]::-ms-fill {
+  background-color: #00adbb;
+}
+.progress[value]::-moz-progress-bar {
+  background-color: #00adbb;
+}
+.progress-bar {
+  background-color: #00adbb;
+}
+.alert-primary {
+  background-color: rgba(0, 173, 187, 0.25);
+  border-color: rgba(0, 173, 187, 0.8);
+  color: #004f55;
+}
+.alert-primary hr {
+  border-top-color: rgba(0, 173, 187, 0.85);
+}
+.alert-primary .alert-link {
+  color: #004f55;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  background-color: #00adbb;
+  border-color: #00adbb;
+}
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text {
+  color: rgba(255, 255, 255, 0.9);
+}
+.blockquote {
+  border-left-color: #00adbb;
+}
+.blockquote-reverse {
+  border-right-color: #00adbb;
+}
+.tag-cloud a.tag {
+  color: #00adbb;
+}
+@media (min-width: 576px) {
+  .card-group .card + .card-outline-primary {
+    border-left: 1px solid #00adbb;
+  }
+}
+@media (min-width: 576px) {
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable .navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before,
+  .navbar-toggleable.navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before {
+    color: #00adbb !important;
+  }
+  .navbar-toggleable .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable.navbar-main .navbar-nav .open.active > .dropdown-toggle {
+    border-top-color: #00adbb !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable-sm .navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before,
+  .navbar-toggleable-sm.navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before {
+    color: #00adbb !important;
+  }
+  .navbar-toggleable-sm .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-sm .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-sm.navbar-main .navbar-nav .open.active > .dropdown-toggle {
+    border-top-color: #00adbb !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable-md .navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before,
+  .navbar-toggleable-md.navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before {
+    color: #00adbb !important;
+  }
+  .navbar-toggleable-md .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-md .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-md.navbar-main .navbar-nav .open.active > .dropdown-toggle {
+    border-top-color: #00adbb !important;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after {
+    border-bottom-color: #00adbb !important;
+  }
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+  .navbar-toggleable-lg .navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before,
+  .navbar-toggleable-lg.navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before {
+    color: #00adbb !important;
+  }
+  .navbar-toggleable-lg .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .show > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .open > .dropdown-toggle,
+  .navbar-toggleable-lg .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+  .navbar-toggleable-lg.navbar-main .navbar-nav .open.active > .dropdown-toggle {
+    border-top-color: #00adbb !important;
+  }
+}
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu {
+  border-bottom-color: #00adbb !important;
+}
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .dropdown-submenu .dropdown-item:after {
+  border-bottom-color: #00adbb !important;
+}
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .dropdown-item:hover:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .dropdown-item:focus:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .dropdown-item.active:hover:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .dropdown-item.active:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .dropdown-item.active:focus:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .active > .dropdown-item:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .active > .dropdown-item:hover:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .active > .dropdown-item:focus:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .show > .dropdown-item:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .show > .dropdown-item:hover:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .show > .dropdown-item:focus:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .open > .dropdown-item:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .open > .dropdown-item:hover:before,
+.navbar-toggleable-xlg .navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before,
+.navbar-toggleable-xlg.navbar-main.collapse .dropdown-menu .open > .dropdown-item:focus:before {
+  color: #00adbb !important;
+}
+.navbar-toggleable-xlg .navbar-main .navbar-nav .show > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .show > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .show > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .show > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .show.active > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .show.active > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .open > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .open > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .open.active > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .open > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .open > .dropdown-toggle,
+.navbar-toggleable-xlg .navbar-main .navbar-nav .open.active > .dropdown-toggle,
+.navbar-toggleable-xlg.navbar-main .navbar-nav .open.active > .dropdown-toggle {
+  border-top-color: #00adbb !important;
+}
+.form-control:focus,
+.form-control:focus:hover {
+  border-color: #00adbb;
+}
+.btn-primary.btn-invert {
+  background-color: #007e88;
+}
+.btn-primary.btn-invert:hover,
+.btn-primary.btn-invert:focus {
+  background-color: #00adbb;
+}
+.text-primary-faded {
+  color: rgba(0, 173, 187, 0.3) !important;
+}
+.text-primary-darkend {
+  color: #004f55 !important;
+}
+.bg-primary-faded {
+  background-color: rgba(0, 173, 187, 0.3) !important;
+}
+.bg-primary-darkend {
+  background-color: #004f55 !important;
+}
+.border-primary {
+  border-color: #00adbb !important;
+}
+.border-primary-faded {
+  border-color: rgba(0, 173, 187, 0.3) !important;
+}
+.border-primary-darkend {
+  border-color: #004f55 !important;
+}
+hr.hr-primary {
+  border-top-color: #00adbb !important;
+}
+hr.hr-primary-faded {
+  border-top-color: rgba(0, 173, 187, 0.3) !important;
+}
+hr.hr-primary-darkend {
+  border-top-color: #004f55 !important;
+}
+.header .header-brand-text {
+  color: #00adbb;
+}
+.price-banner {
+  color: #00adbb;
+}
+.focus-box {
+  border-bottom-color: #00adbb !important;
+}
+.blog-grid .blog-post {
+  border-bottom-color: #00adbb !important;
+}
+.page-loader {
+  background: #00adbb !important;
+}
+.owl-nav div:hover,
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+  background: #00adbb !important;
+}
+.modal-progress {
+  background: #00adbb !important;
+}
+.overlay.overlay-primary:after {
+  background: #00adbb !important;
+}
+.overlay.overlay-primary .overlay-header:after,
+.overlay.overlay-primary .overlay-footer:before {
+  background: #eefeff !important;
+}
+.header-primary .header {
+  background: #00adbb;
+}
+.header-primary .header .header-inner .header-divider:after {
+  background-color: #08edff;
+}
+.header-transparent .header.is-sticky,
+.header-transparent .is-sticky .header {
+  border-bottom-color: #00adbb;
+}
+.header-transparent.header-primary .header {
+  background: transparent;
+}
+.header-transparent.header-primary .header.is-sticky,
+.header-transparent.header-primary .is-sticky .header {
+  background-color: rgba(0, 176, 189, 0.98);
+  border-bottom-color: #292b2c;
+}
+.header-translucent .header.is-sticky,
+.header-translucent .is-sticky .header {
+  border-bottom-color: rgba(0, 173, 187, 0.6);
+}
+.header-translucent.header-dark .header.is-sticky,
+.header-translucent.header-dark .is-sticky .header {
+  border-bottom-color: rgba(0, 173, 187, 0.4);
+}
+.header-translucent.header-primary .header {
+  background-color: rgba(0, 176, 189, 0.2);
+  border-bottom-color: rgba(0, 173, 187, 0.6);
+}
+.header-translucent.header-primary .header.is-sticky,
+.header-translucent.header-primary .is-sticky .header {
+  background-color: rgba(0, 176, 189, 0.95);
+  border-bottom-color: #292b2c;
+}
+.navbar-nav-onepager .nav-link.active {
+  color: #007e88 !important;
+}
+/*
+ * --------------------------------------------------
+ * 2. Header & Navigation 
+ *--------------------------------------------------
+ */
+body .header-hidden {
+  background: #007e88;
+  /* primary colour */
+}
+body .header-upper {
+  background: #00adbb;
+  /* primary colour */
+}
+body .header {
+  border-bottom-color: #00adbb;
+  /* primary colour */
+}
+body .header .navbar-brand {
+  color: #00adbb;
+  /* primary colour */
+}
+body .navbar-nav .divider-vertical {
+  border-left-color: #00666e;
+  border-right-color: rgba(255, 255, 255, 0.15);
+}
+/*
+ * --------------------------------------------------
+ * 3. Content Area
+ *-------------------------------------------------- 
+ */
+body .stats .stat-header {
+  background: #00adbb;
+  background-image: -webkit-radial-gradient(circle, #00adbb, #007e88);
+  background-image: radial-gradient(circle, #00adbb, #007e88);
+  background-repeat: no-repeat;
+  background-image: -moz-radial-gradient(center, circle, #00adbb, #007e88 100%);
+  background-image: -ms-radial-gradient(center, circle, #00adbb, #007e88 100%);
+  background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(#00adbb), to(#007e88));
+  background-image: -webkit-radial-gradient(center, circle, #00adbb, #007e88 100%);
+  background-image: -o-radial-gradient(center, circle, #00adbb, #007e88 100%);
+}
+body .stats .stat-header:after {
+  border-top-color: #00adbb;
+  /* primary colour */
+}
+/*
+ * --------------------------------------------------
+ * 3. Misc
+ * Other stuff
+ *--------------------------------------------------
+ */
+.slider-appstrap-theme .tp-bullets li a:hover,
+.slider-appstrap-theme .tp-bullets.round li a:hover,
+.slider-appstrap-theme .tp-bullets.simplebullets.round li a:hover,
+.flex-control-nav li a:hover,
+.slider-appstrap-theme .tp-bullets .bullet:hover,
+.slider-appstrap-theme .tp-bullets.round .bullet:hover,
+.slider-appstrap-theme .tp-bullets.simplebullets.round .bullet:hover,
+.flex-control-nav .bullet:hover,
+.slider-appstrap-theme .tp-bullets li a.flex-active,
+.slider-appstrap-theme .tp-bullets.round li a.flex-active,
+.slider-appstrap-theme .tp-bullets.simplebullets.round li a.flex-active,
+.flex-control-nav li a.flex-active,
+.slider-appstrap-theme .tp-bullets .bullet.flex-active,
+.slider-appstrap-theme .tp-bullets.round .bullet.flex-active,
+.slider-appstrap-theme .tp-bullets.simplebullets.round .bullet.flex-active,
+.flex-control-nav .bullet.flex-active,
+.slider-appstrap-theme .tp-bullets li a.selected,
+.slider-appstrap-theme .tp-bullets.round li a.selected,
+.slider-appstrap-theme .tp-bullets.simplebullets.round li a.selected,
+.flex-control-nav li a.selected,
+.slider-appstrap-theme .tp-bullets .bullet.selected,
+.slider-appstrap-theme .tp-bullets.round .bullet.selected,
+.slider-appstrap-theme .tp-bullets.simplebullets.round .bullet.selected,
+.flex-control-nav .bullet.selected {
+  background: #00adbb;
+}
+.slider-appstrap-theme .tp-bannertimer {
+  background: #00adbb;
+}
+.slider-appstrap-theme .tparrows:before,
+.flex-direction-nav a:before {
+  color: #00adbb;
+}
+.bootstrap-switch > div > span.bootstrap-switch-primary {
+  background: #00adbb;
+}
+.bootstrap-switch.bootstrap-switch-focused {
+  border-color: #00adbb;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.dropdown-menu-primary {
+  border-bottom-color: #00adbb !important;
+}
+.dropdown-menu-primary a:hover:before {
+  color: #00adbb !important;
+}
+.timeline-item {
+  border-bottom-color: #00adbb;
+}
+.timeline-item.tag-featured:after,
+.timeline-item.marker-highlight:after,
+.timeline-item.highlight:after {
+  color: #00adbb;
+}
+.owl-controls.clickable .owl-buttons div:hover,
+.owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span {
+  background: #00adbb;
+}
